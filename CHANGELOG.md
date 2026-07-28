@@ -4,6 +4,24 @@ All notable changes to this project are documented here.
 
 The format follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses semantic versioning.
 
+## [Unreleased]
+
+### Added
+
+- scalable SVG project cover highlighting Musa's strategic HR analytics portfolio achievement;
+- DBeaver and SQLite setup guide;
+- raw-table schema, SQL data-cleaning pipeline, BI-ready views and reusable portfolio queries;
+- reproducible `scripts/build_sqlite_database.py` database builder;
+- project-rules alignment document with ethical exceptions;
+- synthetic data provenance, citation metadata and code licence.
+
+### Changed
+
+- removed the `Assigned to` column from the Power BI build-plan table;
+- upgraded the root README to follow the portfolio landing-page order;
+- expanded project usability guidance for SQL, SQLite, DBeaver and Power BI;
+- clarified that simulated outcomes are descriptive and do not prove causality.
+
 ## [0.3.0] — 2026-07-28
 
 ### Added
@@ -43,6 +61,3 @@ bd-hr-analytics-unified-project.zip
 ### Added
 
 - initial synthetic Bangladesh SME HR analytics portfolio;
-- core CSV datasets;
-- project case study and README;
-- initial Excel, Power BI, Looker Studio, Python and SQL assets.
