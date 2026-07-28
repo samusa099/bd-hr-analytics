@@ -1,15 +1,20 @@
 {
-  "project_name": "Bangladesh SME HR Strategy Transformation",
+  "project_name": "BD HR Analytics: KAS Ltd. HR Business Partnership and Operating Transformation Case",
   "repository": "samusa099/bd-hr-analytics",
   "version": "v0.3.0",
   "portfolio_owner": "Musa",
-  "case_type": "Synthetic portfolio simulation",
+  "case_company": "KAS Ltd.",
+  "operating_location": "XYZ Export Processing Zone, Bangladesh (fictional)",
+  "case_type": "Completely synthetic portfolio simulation",
+  "participant_review_branch": "participant-review",
   "tools": [
     "Excel",
     "Power BI",
     "Looker Studio",
     "Python",
-    "SQL"
+    "SQL",
+    "SQLite",
+    "DBeaver"
   ],
-  "data_classification": "Synthetic; no personal or confidential data"
+  "data_classification": "Synthetic; no personal, confidential or production company data"
 }
