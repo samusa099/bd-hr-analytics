@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
 
 concurrency:
   group: required-branch-checks-${{ github.workflow }}-${{ github.ref }}
@@ -20,6 +21,37 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Enforce participant submission boundary
+        if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          set -euo pipefail
+
+          if [[ "${HEAD_REF}" == submission/* ]]; then
+            echo "::error::Participant submission branches must target participant-review, not main."
+            exit 1
+          fi
+
+          mapfile -t changed_files < <(
+            gh api --paginate \
+              "repos/${REPOSITORY}/pulls/${PR_NUMBER}/files?per_page=100" \
+              --jq '.[].filename'
+          )
+
+          for file in "${changed_files[@]}"; do
+            if [[ "${file}" == participant-submissions/solutions/*/*/* ]]; then
+              echo "::error::Participant solution files must be reviewed through participant-review before any maintainer promotion to main."
+              exit 1
+            fi
+          done
+
+          echo "Participant submission boundary passed."
+
       - name: Checkout repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
