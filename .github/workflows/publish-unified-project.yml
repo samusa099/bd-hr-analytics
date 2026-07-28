@@ -1,0 +1,55 @@
+name: Publish Unified HR Analytics Project
+
+on:
+  push:
+    paths:
+      - ".github/workflows/publish-unified-project.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install workbook dependency
+        run: python -m pip install --quiet openpyxl
+
+      - name: Configure Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Build and commit Project Version v0.1.0
+        run: |
+          python scripts/build_project.py --phase v0.1
+          git add -A
+          git commit -m "release: Project Version v0.1.0"
+
+      - name: Build and commit unified ZIP v0.3.0
+        run: |
+          python scripts/build_project.py --phase v0.3
+          git add -A
+          git commit -m "release: add unified ZIP v0.3.0"
+
+      - name: Publish latest unified project ZIP
+        run: |
+          cp releases/bd-hr-analytics-unified-v0.3.0.zip bd-hr-analytics-unified-project.zip
+          git add -A
+          git commit -m "release: publish unified project ZIP"
+
+      - name: Push all release commits
+        run: git push origin HEAD:main
