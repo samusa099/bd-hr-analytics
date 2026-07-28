@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this synthetic analytics portfolio, please cite it as below."
+title: "BD HR Analytics: Bangladesh SME HR Strategy Transformation"
+type: dataset
+authors:
+  - name: "Musa"
+version: "0.3.0"
+date-released: "2026-07-28"
+url: "https://github.com/samusa099/bd-hr-analytics"
+repository-code: "https://github.com/samusa099/bd-hr-analytics"
+license: "CC-BY-4.0"
+abstract: >-
+  A completely synthetic Bangladesh SME HR strategy analytics portfolio
+  covering workforce, turnover, recruitment, learning, performance,
+  compliance, Excel, Power BI, Python, SQL and SQLite practice.
+keywords:
+  - HR analytics
+  - people analytics
+  - synthetic data
+  - Bangladesh
+  - Power BI
+  - Excel
+  - SQLite
+  - portfolio
