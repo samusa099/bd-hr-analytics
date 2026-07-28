@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">BD HR Analytics portfolio cover highlighting Musa</title>
+  <desc id="desc">A professional vector cover for a synthetic Bangladesh SME HR strategy analytics portfolio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="55%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#123B5D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1450" cy="90" r="260" fill="#14B8A6" opacity="0.08"/>
+  <circle cx="1520" cy="850" r="330" fill="#38BDF8" opacity="0.06"/>
+  <path d="M0 760 C260 690 430 860 720 780 C1010 700 1190 610 1600 690 L1600 900 L0 900 Z" fill="#07101E" opacity="0.75"/>
+  <g transform="translate(90 74)">
+    <rect x="0" y="0" width="238" height="42" rx="21" fill="#0F766E" opacity="0.95"/>
+    <text x="119" y="28" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#ECFEFF">SYNTHETIC PORTFOLIO CASE</text>
+    <text x="0" y="118" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" fill="#F8FAFC">BD HR ANALYTICS</text>
+    <text x="0" y="171" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="600" fill="#BAE6FD">Bangladesh SME HR Strategy Transformation</text>
+    <rect x="0" y="198" width="790" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="0" y="270" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#5EEAD4">PORTFOLIO ACHIEVEMENT</text>
+    <text x="0" y="334" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800" fill="#FFFFFF">MUSA</text>
+    <text x="0" y="376" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="650" fill="#E0F2FE">HR Executive → Strategic HR Analytics</text>
+    <g transform="translate(0 430)" font-family="Inter,Segoe UI,Arial,sans-serif">
+      <g><circle cx="13" cy="13" r="13" fill="#14B8A6"/><path d="M7 13l4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="20" font-size="21" font-weight="600" fill="#E2E8F0">Designed an end-to-end people analytics transformation case</text></g>
+      <g transform="translate(0 55)"><circle cx="13" cy="13" r="13" fill="#14B8A6"/><path d="M7 13l4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="20" font-size="21" font-weight="600" fill="#E2E8F0">Connected recruitment, L&amp;D, performance, risk and governance</text></g>
+      <g transform="translate(0 110)"><circle cx="13" cy="13" r="13" fill="#14B8A6"/><path d="M7 13l4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="20" font-size="21" font-weight="600" fill="#E2E8F0">Built a reusable Excel • Power BI • SQL • Python workflow</text></g>
+      <g transform="translate(0 165)"><circle cx="13" cy="13" r="13" fill="#14B8A6"/><path d="M7 13l4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="20" font-size="21" font-weight="600" fill="#E2E8F0">Applied synthetic-data, privacy and human-review safeguards</text></g>
+    </g>
+  </g>
+  <g transform="translate(960 130)" filter="url(#shadow)">
+    <rect x="0" y="0" width="540" height="610" rx="34" fill="#F8FAFC"/>
+    <rect x="0" y="0" width="540" height="78" rx="34" fill="#E0F2FE"/>
+    <rect x="0" y="44" width="540" height="34" fill="#E0F2FE"/>
+    <text x="34" y="49" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800" fill="#0F172A">Executive People Analytics</text>
+    <text x="34" y="101" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#64748B">SIMULATED RESULTS</text>
+    <g font-family="Inter,Segoe UI,Arial,sans-serif">
+      <g transform="translate(30 130)"><rect width="150" height="112" rx="18" fill="#ECFEFF" stroke="#99F6E4"/><text x="18" y="30" font-size="14" font-weight="700" fill="#0F766E">TURNOVER</text><text x="18" y="74" font-size="34" font-weight="800" fill="#0F172A">17.8%</text><text x="18" y="97" font-size="12" fill="#64748B">from 28.6%</text></g>
+      <g transform="translate(195 130)"><rect width="150" height="112" rx="18" fill="#EFF6FF" stroke="#BFDBFE"/><text x="18" y="30" font-size="14" font-weight="700" fill="#1D4ED8">ENGAGEMENT</text><text x="18" y="74" font-size="34" font-weight="800" fill="#0F172A">74</text><text x="18" y="97" font-size="12" fill="#64748B">from 56 / 100</text></g>
+      <g transform="translate(360 130)"><rect width="150" height="112" rx="18" fill="#FFF7ED" stroke="#FED7AA"/><text x="18" y="30" font-size="14" font-weight="700" fill="#C2410C">COMPLIANCE</text><text x="18" y="74" font-size="34" font-weight="800" fill="#0F172A">95%</text><text x="18" y="97" font-size="12" fill="#64748B">from 61%</text></g>
+    </g>
+    <g transform="translate(30 275)"><rect width="480" height="145" rx="20" fill="#FFFFFF" stroke="#CBD5E1"/><text x="22" y="31" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800" fill="#0F172A">Workforce Risk Trend</text><line x1="35" y1="114" x2="450" y2="114" stroke="#CBD5E1"/><polyline points="42,60 104,71 166,68 228,84 290,88 352,101 425,106" fill="none" stroke="#0EA5E9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="42,88 104,92 166,96 228,101 290,103 352,108 425,110" fill="none" stroke="#14B8A6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g transform="translate(30 445)" font-family="Inter,Segoe UI,Arial,sans-serif"><text x="0" y="20" font-size="16" font-weight="800" fill="#0F172A">Strategic HR Capability</text><g transform="translate(0 38)"><text x="0" y="16" font-size="13" font-weight="700" fill="#475569">Talent &amp; Retention</text><rect x="160" y="2" width="285" height="15" rx="7.5" fill="#E2E8F0"/><rect x="160" y="2" width="235" height="15" rx="7.5" fill="#14B8A6"/></g><g transform="translate(0 74)"><text x="0" y="16" font-size="13" font-weight="700" fill="#475569">People Analytics</text><rect x="160" y="2" width="285" height="15" rx="7.5" fill="#E2E8F0"/><rect x="160" y="2" width="255" height="15" rx="7.5" fill="#0EA5E9"/></g><g transform="translate(0 110)"><text x="0" y="16" font-size="13" font-weight="700" fill="#475569">Governance &amp; Ethics</text><rect x="160" y="2" width="285" height="15" rx="7.5" fill="#E2E8F0"/><rect x="160" y="2" width="266" height="15" rx="7.5" fill="#F97316"/></g></g>
+  </g>
+  <g transform="translate(90 820)" font-family="Inter,Segoe UI,Arial,sans-serif"><text x="0" y="0" font-size="19" font-weight="700" fill="#94A3B8">Excel</text><circle cx="70" cy="-7" r="4" fill="#14B8A6"/><text x="88" y="0" font-size="19" font-weight="700" fill="#94A3B8">Power BI</text><circle cx="186" cy="-7" r="4" fill="#14B8A6"/><text x="204" y="0" font-size="19" font-weight="700" fill="#94A3B8">SQL / SQLite</text><circle cx="330" cy="-7" r="4" fill="#14B8A6"/><text x="348" y="0" font-size="19" font-weight="700" fill="#94A3B8">Python</text><circle cx="430" cy="-7" r="4" fill="#14B8A6"/><text x="448" y="0" font-size="19" font-weight="700" fill="#94A3B8">Responsible HR Analytics</text></g>
+</svg>
