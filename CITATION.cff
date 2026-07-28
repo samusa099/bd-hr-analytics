@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this synthetic analytics portfolio, please cite it as below."
-title: "BD HR Analytics: Bangladesh SME HR Strategy Transformation"
+title: "BD HR Analytics: KAS Ltd. HR Business Partnership and Operating Transformation Case"
 type: dataset
 authors:
   - name: "Musa"
@@ -10,15 +10,18 @@ url: "https://github.com/samusa099/bd-hr-analytics"
 repository-code: "https://github.com/samusa099/bd-hr-analytics"
 license: "CC-BY-4.0"
 abstract: >-
-  A completely synthetic Bangladesh SME HR strategy analytics portfolio
-  covering workforce, turnover, recruitment, learning, performance,
-  compliance, Excel, Power BI, Python, SQL and SQLite practice.
+  A completely synthetic Bangladesh export-manufacturing HRBP and people-analytics
+  portfolio covering workforce, turnover, recruitment, learning, operational risk,
+  responsible AI, Excel, Power BI, Looker Studio, Python, SQL, SQLite and DBeaver practice.
 keywords:
+  - HR business partnering
   - HR analytics
   - people analytics
   - synthetic data
   - Bangladesh
+  - export manufacturing
   - Power BI
   - Excel
   - SQLite
+  - DBeaver
   - portfolio
