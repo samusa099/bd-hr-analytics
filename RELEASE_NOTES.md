@@ -1,89 +1,118 @@
-# 🚀 Release Notes — v0.3.0
+# Release Notes — v0.4.0
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v0.3.0-2563EB?style=for-the-badge" alt="Release v0.3.0" />
-  <img src="https://img.shields.io/badge/Status-Ready%20for%20Release-16A34A?style=for-the-badge" alt="Ready for Release" />
-  <img src="https://img.shields.io/badge/Data-Synthetic-F97316?style=for-the-badge" alt="Synthetic Data" />
+  <img src="https://img.shields.io/badge/Release-v0.4.0-2563EB?style=for-the-badge" alt="Release v0.4.0" />
+  <img src="https://img.shields.io/badge/Status-Ready%20for%20Publication-16A34A?style=for-the-badge" alt="Ready for publication" />
+  <img src="https://img.shields.io/badge/Data-100%25%20Synthetic-F97316?style=for-the-badge" alt="Synthetic data" />
 </p>
 
-## Release title
+## Release Title
 
 ```text
-Bangladesh SME HR Strategy Transformation v0.3.0
+KAS Ltd. HR Business Partnership and Analytics Practice Package v0.4.0
 ```
 
 ## Summary
 
-Version `v0.3.0` is the first unified portfolio release prepared for both GitHub and Kaggle workflows.
+Version `v0.4.0` publishes the professional KAS Ltd. transformation case and separates repository governance from the participant practice package.
 
-It brings together synthetic Bangladesh SME HR datasets, executive dashboard assets, analytics notebooks, SQL queries, Power BI build guidance, responsible-use documentation and portfolio presentation materials in one structured project.
+The public repository remains the authoritative documentation, source, security and contribution workspace. The downloadable practice archive is published separately as a GitHub Release asset and is not committed to `main`.
 
-## Highlights
+## Major Additions
 
-- one unified GitHub and Kaggle project structure;
-- central CSV folder for maximum tool compatibility;
-- Excel executive dashboard;
-- six Power BI dashboard concepts;
-- Power BI model, DAX and theme assets;
-- Looker Studio build specification;
-- Python diagnostic and impact notebooks;
-- SQL HR analytics queries;
-- expanded ethics, usability and promotion portfolio documentation;
-- task ownership and quality-assurance checklists.
+- professional Q1–Q4 KAS Ltd. HRBP transformation case;
+- Musa’s progression from Senior Executive to Assistant Manager — HR Business Partnering & People Analytics;
+- integrated data assurance, SQLite, Excel, Power BI, Looker Studio and HRBP challenge;
+- controlled `participant-submissions/` workspace;
+- dedicated `participant-review` branch;
+- required checks that reject participant solution pull requests targeting `main`;
+- SQLite practice database included in the release package;
+- release-based download workflow.
 
-## Simulated business outcomes
+## Practice Release Asset
 
-| KPI | Baseline | Simulated result |
-|---|---:|---:|
-| Annualised turnover | 28.6% | 17.8% |
-| 90-day early attrition | 24.1% | 12.1% |
-| Absenteeism | 12.7% | 7.6% |
-| Time-to-fill | 53 days | 32 days |
-| Overtime cost ratio | 18.4% | 10.9% |
-| Engagement | 56/100 | 74/100 |
-| Manager effectiveness | 58/100 | 77/100 |
-| Compliance documentation | 61% | 95% |
-
-## Release asset
-
-Attach this file to the GitHub Release:
+Attach this file to the new GitHub Release:
 
 ```text
-bd-hr-analytics-unified-project.zip
+bd-hr-analytics-practice-files-v0.4.0.zip
 ```
 
-## Recommended GitHub Release settings
+The archive contains only practice-oriented assets:
 
-- **Tag:** `v0.3.0`
+- CSV datasets;
+- JSON metadata and Power BI theme files;
+- SQLite database;
+- Excel workbook;
+- Jupyter notebooks;
+- SQL and DAX files.
+
+The archive excludes:
+
+- `.git` and `.github`;
+- repository rulesets;
+- governance documentation;
+- `CHANGELOG.md`;
+- `RELEASE_NOTES.md`;
+- security workflows;
+- contribution governance;
+- duplicate archives.
+
+## Private Governance Package
+
+The following package is maintained privately and must not be attached to the public release:
+
+```text
+bd-hr-analytics-private-rulesets-v0.4.0.zip
+```
+
+It contains validated GitHub ruleset JSON templates for manual administrative import.
+
+## Recommended GitHub Release Settings
+
+- **Tag:** `v0.4.0`
 - **Target:** `main`
-- **Release title:** `Bangladesh SME HR Strategy Transformation v0.3.0`
+- **Release title:** `KAS Ltd. HR Business Partnership and Analytics Practice Package v0.4.0`
 - **Set as latest release:** Yes
 - **Pre-release:** No
-- **Discussion:** Optional
+- **Public asset:** `bd-hr-analytics-practice-files-v0.4.0.zip`
+- **Private ruleset package:** Do not upload publicly
 
-## Installation and use
+## Installation and Practice
 
-1. Download the unified ZIP.
-2. Extract the project.
-3. Review `README.md` and `docs/PROJECT_USAGE_GUIDE.md`.
-4. Load files from `data/csv/`.
-5. Open the Excel dashboard or rebuild the Power BI report.
-6. Review `docs/ETHICS_AND_LIMITATIONS.md` before interpreting employee-level outputs.
+1. Open the repository Releases page.
+2. Download `bd-hr-analytics-practice-files-v0.4.0.zip`.
+3. Extract the archive locally.
+4. Use CSV files with Excel, Power BI, Python, SQL or DBeaver.
+5. Open `database/bd_hr_analytics_practice.sqlite` in DBeaver or another SQLite client.
+6. Use the notebooks, SQL and DAX assets for the selected challenge workstream.
+7. Read the full case and submission instructions from the repository documentation.
 
-## Ethics notice
+## Governance and Security
 
-All records and results are synthetic. The project must not be used to automate real employment decisions. Employee-risk outputs are demonstration-only and require context, human review and due process.
+- Release ZIP files are not stored in `main`.
+- Public ruleset JSON templates have been removed from the repository tree.
+- Participant submissions target `participant-review`, not `main`.
+- Required `validate-project` and `security-checks` checks remain active.
+- Published release tags should be treated as immutable.
 
-## Known limitation
+## Ethics Notice
 
-The native Power BI `.pbix` file remains a practice deliverable. The repository provides datasets, DAX starters, model guidance, theme files and visual references for building it.
+All records, companies, employees, buyers, incidents and performance outcomes are synthetic. The materials must not be used to automate real hiring, termination, promotion, disciplinary, medical or other high-impact employment decisions.
 
-## Release checklist status
+## Known Limitations
 
-- Documentation upgraded: ✅
-- Historical repository release ZIPs removed: ✅
-- Unified release asset prepared: ✅
-- Version file: `v0.3.0` ✅
-- Changelog prepared: ✅
-- Ethics documentation prepared: ✅
-- Native `.pbix` file: Pending practice
+- The native Power BI `.pbix` file remains a participant practice deliverable.
+- Simulated KPI movement does not prove causality.
+- The release archive is a practice distribution package, not a production HR information system.
+
+## Publication Checklist
+
+- Professional case published: Complete
+- Participant workspace published: Complete
+- Practice-only ZIP prepared: Complete
+- SQLite integrity check: Passed
+- Public repository ZIP removed: Complete
+- Public ruleset JSON removed: Complete
+- README release redirect: Complete
+- Version updated to `v0.4.0`: Complete
+- GitHub Release creation and asset upload: Maintainer publication step
