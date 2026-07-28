@@ -35,10 +35,10 @@ jobs:
               --jq '.[].filename'
           )
 
-          participant_change=false
+          participant_solution_change=false
           for file in "${changed_files[@]}"; do
-            if [[ "${file}" == participant-submissions/* ]]; then
-              participant_change=true
+            if [[ "${file}" == participant-submissions/solutions/*/*/* ]]; then
+              participant_solution_change=true
               break
             fi
           done
@@ -48,7 +48,7 @@ jobs:
             submission_branch=true
           fi
 
-          if [[ "${participant_change}" == "true" || "${submission_branch}" == "true" ]]; then
+          if [[ "${participant_solution_change}" == "true" || "${submission_branch}" == "true" ]]; then
             if [[ "${BASE_REF}" == "main" ]]; then
               echo "::error::Participant submissions must not target main. Use participant-review."
               exit 1
