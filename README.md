@@ -1,53 +1,61 @@
-# 🚀 Bangladesh SME HR Strategy Transformation
+<p align="center">
+  <img src="assets/cover/bd_hr_analytics_cover.svg" width="78%" alt="BD HR Analytics portfolio cover highlighting Musa and the synthetic HR strategy transformation project" />
+</p>
+
+# 🚀 BD HR Analytics
 
 <p align="center">
-  <strong>From HR Executive to Strategic Mid-Level HR: a synthetic people analytics portfolio case.</strong>
+  <strong>Bangladesh SME HR Strategy Transformation — a complete synthetic people-analytics portfolio.</strong>
 </p>
 
 <p align="center">
-  <code>Excel</code> · <code>Power BI</code> · <code>Looker Studio</code> · <code>Python</code> · <code>SQL</code>
+  <img src="https://img.shields.io/badge/Author-Musa-2563EB?style=for-the-badge" alt="Author Musa" />
+  <img src="https://img.shields.io/badge/Data-100%25%20Synthetic-F97316?style=for-the-badge" alt="100 percent synthetic data" />
+  <img src="https://img.shields.io/badge/Excel-Dashboard-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel dashboard" />
+  <img src="https://img.shields.io/badge/Power%20BI-Build%20Assets-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000" alt="Power BI build assets" />
+  <img src="https://img.shields.io/badge/SQLite-DBeaver-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite and DBeaver" />
+  <img src="https://img.shields.io/badge/Portfolio-Ready-14B8A6?style=for-the-badge" alt="Portfolio ready" />
 </p>
 
 ---
 
-## 📌 Executive Story
+## 📌 Executive Overview
 
-**Nabodoy Commerce & Services Ltd.** is a fictional Bangladesh-based startup growing rapidly into an SME. Headcount expanded faster than its HR systems, creating a connected set of business problems:
+**Nabodoy Commerce & Services Ltd.** is a fictional Bangladesh-based startup growing into an SME. Rapid headcount growth created connected people challenges: turnover, early attrition, absence, overtime, recruitment delays, manager capability gaps, inconsistent performance practices and weak compliance visibility.
 
-- high employee turnover and early attrition;
-- absenteeism and overtime pressure;
-- slow recruitment and weak source quality;
-- inconsistent performance management;
-- low manager capability;
-- incomplete HR documentation and weak compliance visibility;
-- leadership decisions based more on anecdotes than evidence.
+This portfolio shows how **Musa**, positioned as an HR Executive, can diagnose those problems, design coordinated HR interventions and communicate the results through Excel, Power BI, SQL, SQLite, Python and Looker Studio.
 
-**Musa**, working at HR Executive level, builds a structured people-analytics intervention to show readiness for a **mid-level strategic HR role**. The portfolio connects daily HR operations to business outcomes, tracks adoption, and presents a measurable transformation story.
+> **Important:** The company, employees, results and story are completely synthetic. Nothing in this repository represents a real employer or real employee.
 
-> **Important:** This is a synthetic learning and portfolio project. It does not represent a real company or real employees.
+## 🎯 Portfolio Achievement
 
-## 🎯 Business Question
+The project demonstrates readiness to move from operational HR reporting toward strategic HR work by showing:
 
-> How can HR help a rapidly growing Bangladesh startup build SME-ready people systems without slowing business growth?
+- business and workforce diagnosis;
+- structured talent, learning and performance interventions;
+- dashboard storytelling and KPI governance;
+- SQL data cleaning and BI-ready modelling;
+- responsible people analytics with human review;
+- executive communication and portfolio presentation.
 
-## 🔟 Strategic HR Contribution Areas
+## 📊 Project Snapshot
 
-1. Talent acquisition  
-2. Employee training and development  
-3. Performance management  
-4. Organizational culture  
-5. Compliance and risk management  
-6. Data-driven decision-making  
-7. Change management  
-8. Diversity, equity and inclusion  
-9. Employee wellbeing  
-10. Responsible AI integration  
+| Area | Portfolio output |
+|---|---|
+| Business problem | Startup-to-SME people-system maturity gap |
+| Data | Synthetic workforce, recruitment, learning and KPI CSV files |
+| Excel | Executive dashboard and scorecards |
+| Power BI | Six-page design system, DAX, theme and model guidance |
+| SQL | DBeaver/SQLite schema, cleaning pipeline, views and analysis queries |
+| Python | Diagnostic and intervention-impact notebooks |
+| Governance | Ethics, limitations, provenance and rules-alignment documentation |
+| Distribution | One unified GitHub/Kaggle project archive |
 
 ## 📈 Simulated Transformation Outcomes
 
-| KPI | Baseline | Final simulated result |
+| KPI | Baseline | Simulated result |
 |---|---:|---:|
-| Annualized turnover | 28.6% | 17.8% |
+| Annualised turnover | 28.6% | 17.8% |
 | 90-day early attrition | 24.1% | 12.1% |
 | Absenteeism | 12.7% | 7.6% |
 | Time-to-fill | 53 days | 32 days |
@@ -56,89 +64,144 @@
 | Manager effectiveness | 58/100 | 77/100 |
 | Compliance documentation | 61% | 95% |
 
-## 🧰 Project Outputs
+These values support portfolio storytelling only. They are descriptive simulated outcomes and do not prove causality.
 
-- **Excel:** executive dashboard, department scorecard, intervention tracker and employee-risk view.
-- **Power BI:** star-schema guide, DAX measures and theme.
-- **Looker Studio:** data-source map, calculated fields and dashboard wireframe.
-- **Python notebooks:** diagnostics and intervention-impact analysis.
-- **SQL:** reusable HR KPI queries.
-- **GitHub/Kaggle metadata:** clean project and dataset metadata.
+## 🧰 Tools and Platforms
+
+```text
+Excel • Power BI • Looker Studio • Python • SQL • SQLite • DBeaver • GitHub • Kaggle
+```
+
+## 🧭 Analytics Workflow
+
+```mermaid
+flowchart LR
+    RAW[Raw synthetic CSV data] --> CLEAN[Validated clean layer]
+    CLEAN --> ANALYSIS[Analysis-ready tables]
+    ANALYSIS --> BI[BI-ready views and models]
+    BI --> EXCEL[Excel dashboard]
+    BI --> PBI[Power BI report]
+    BI --> SQL[SQLite / DBeaver]
+    ANALYSIS --> PY[Python notebooks]
+    EXCEL --> STORY[Executive HR story]
+    PBI --> STORY
+    SQL --> STORY
+    PY --> STORY
+```
 
 ## 🗂️ Repository Structure
 
 ```text
 bd-hr-analytics/
-├── README.md
-├── metadata/
+├── assets/
+│   ├── cover/
+│   └── dashboard previews
 ├── data/
 │   ├── raw/
 │   ├── processed/
-│   └── dictionary/
-├── analysis/
-│   ├── notebooks/
-│   └── sql/
+│   ├── dictionary/
+│   └── csv/
 ├── dashboards/
 │   ├── excel/
 │   ├── power-bi/
 │   └── looker-studio/
+├── analysis/
+│   └── notebooks/
+├── sql/
+│   └── sqlite/
+├── scripts/
+├── database/
+├── metadata/
 ├── docs/
-└── assets/
+├── README.md
+├── DATA_PROVENANCE.md
+├── CITATION.cff
+├── CHANGELOG.md
+├── RELEASE_NOTES.md
+└── bd-hr-analytics-unified-project.zip
 ```
 
-## 🧭 Recommended Reading Order
+The final unified ZIP is intentionally retained as the single distribution asset. Historical duplicate archives are not stored.
 
-1. `docs/CASE_STUDY.md`
-2. `docs/PROMOTION_PORTFOLIO.md`
-3. `dashboards/excel/HR_Strategy_Transformation_Dashboard.xlsx`
-4. `dashboards/power-bi/README.md`
-5. `dashboards/looker-studio/README.md`
+## ⚡ Quick Start
 
-## ⚖️ Ethics
+### Review the project
 
-No real employee data is included. The risk scores are demonstration-only and must not be used for automated employment decisions.
+1. Read [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md).
+2. Open the Excel dashboard in [`dashboards/excel/`](dashboards/excel/).
+3. Review the six Power BI concepts in [`dashboards/power-bi/dashboard-images/`](dashboards/power-bi/dashboard-images/).
+4. Inspect the central CSV files in [`data/csv/`](data/csv/).
 
-## 📦 Unified Archive
+### Build the SQLite database
 
-This project is packaged as a **single archive** for both **GitHub** and **Kaggle** workflows.
+```bash
+python scripts/build_sqlite_database.py
+```
 
-There is **no separate GitHub ZIP and Kaggle ZIP**.  
-Use the same structured project package for both platforms.
+Then open:
 
-### Added visual Power BI previews
+```text
+database/bd_hr_analytics.sqlite
+```
 
-The folder `dashboards/power-bi/mockups/` includes **6 dashboard concept images** so users can quickly understand how the Power BI report can be built.
+in DBeaver or another SQLite client. Full instructions are in [`sql/README.md`](sql/README.md).
 
-- Executive Overview
-- Workforce & Turnover
-- Talent Acquisition
-- Learning & Manager Capability
-- Performance & Employee Experience
-- Compliance, Risk & Strategic Initiatives
+### Build the Power BI report
 
-## ✅ Archive Update Notes
+Follow [`dashboards/power-bi/README.md`](dashboards/power-bi/README.md) to import CSVs, create the model, add DAX measures and rebuild the six report pages.
 
-### CSV-first structure
-For easier practice and compatibility, all main tabular files are kept as **CSV** and are also gathered in:
+## 📚 Documentation
 
-`data/csv/`
+| Guide | Purpose |
+|---|---|
+| [`docs/PROJECT_USAGE_GUIDE.md`](docs/PROJECT_USAGE_GUIDE.md) | Complete project workflow |
+| [`docs/PROMOTION_PORTFOLIO.md`](docs/PROMOTION_PORTFOLIO.md) | Career and interview positioning |
+| [`docs/ETHICS_AND_LIMITATIONS.md`](docs/ETHICS_AND_LIMITATIONS.md) | Responsible people-analytics safeguards |
+| [`docs/PROJECT_RULES_ALIGNMENT.md`](docs/PROJECT_RULES_ALIGNMENT.md) | Applied and excluded unified project rules |
+| [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) | Synthetic source, generation and limitations |
+| [`sql/README.md`](sql/README.md) | DBeaver, SQLite and data-cleaning workflow |
+| [`dashboards/power-bi/README.md`](dashboards/power-bi/README.md) | Native Power BI build guide |
+| [`RELEASE_NOTES.md`](RELEASE_NOTES.md) | Current release summary |
 
-This makes it easier to use the project in Excel, Power BI, Python, SQL and Kaggle workflows.
+## 🧪 Practice Levels
 
-### High-quality dashboard images
-The Power BI concept images are grouped in:
+**Beginner:** filtering, pivot tables, basic charts and descriptive KPI review.
 
-`dashboards/power-bi/dashboard-images/`
+**Intermediate:** SQL cleaning, joins, Power Query, KPI modelling and dashboard development.
 
-A ready inner ZIP is also included:
+**Advanced:** reproducible SQLite pipelines, BI-ready views, DAX, validation and ethical model review.
 
-`dashboards/power-bi/power-bi-dashboard-images.zip`
+## ⚖️ Ethics and Responsible Use
 
-This helps users preview the report pages and rebuild them more easily.
+- No real personal or confidential employee data is included.
+- Synthetic status must remain visible in every public output.
+- Employee-risk scores are discussion prompts, not decisions.
+- Do not use the project for hiring, termination, promotion, discipline or medical decisions.
+- Before-and-after movement is descriptive and does not establish causality.
+- Any production adaptation requires lawful data collection, privacy controls, validation and human oversight.
 
+## 📦 Download
 
-## 📥 Release Downloads
+[Download the unified project ZIP](bd-hr-analytics-unified-project.zip)
 
-- [Project Version v0.1.0](releases/bd-hr-analytics-v0.1.0.zip)
-- [Unified ZIP v0.3.0](releases/bd-hr-analytics-unified-v0.3.0.zip)
-- [Latest unified project ZIP](bd-hr-analytics-unified-project.zip)
+The same clean archive can be used for GitHub portfolio distribution and Kaggle publication.
+
+## 📖 Citation
+
+```text
+Musa. (2026). BD HR Analytics: Bangladesh SME HR Strategy Transformation (Version 0.3.0) [Synthetic data and analytics portfolio].
+```
+
+Machine-readable citation metadata: [`CITATION.cff`](CITATION.cff)
+
+## 👤 Author
+
+**Musa**  
+HR Executive • People Analytics • Strategic HR Transformation
+
+## 📄 Licence
+
+- Code and scripts: MIT
+- Synthetic dataset and documentation: CC BY 4.0
+
+See [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) for scope and attribution guidance.
