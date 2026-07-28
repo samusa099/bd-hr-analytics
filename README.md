@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover/bd_hr_analytics_cover.svg" width="78%" alt="BD HR Analytics portfolio cover highlighting Musa and the synthetic HR strategy transformation project" />
+  <img src="assets/cover/bd_hr_analytics_cover.svg" width="78%" alt="BD HR Analytics portfolio cover highlighting Musa and the synthetic HR transformation project" />
 </p>
 
 # BD HR Analytics — KAS Ltd. Transformation Case
@@ -43,30 +43,14 @@ Long-term CHRO Capability Pathway
 
 ## Strategic Case Structure
 
-| Quarter | Management Context | HRBP Requirement |
+| Quarter | Management context | HRBP requirement |
 |---|---|---|
 | Q1 | Strategic reset after buyer escalation, overtime pressure and inconsistent delivery | Establish a controlled workforce and operating baseline |
 | Q2 | Growth improves, but culture and management practices institutionalise unevenly | Align workforce planning, manager accountability and cross-functional decisions |
 | Q3 | External recognition is followed by a coupled machine, planning, skill and workload failure | Reconstruct the incident without individual blame or unsupported causality |
 | Q4 | The Board requests AI, automation and automatic dashboard refresh | Build data governance, role-based reporting and mandatory human review |
 
-Read the full professional case: [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md)
-
----
-
-## Portfolio Achievement
-
-The project demonstrates readiness for early mid-level HRBP and people-analytics work through:
-
-- business and workforce diagnosis;
-- influence across Production, Quality, Engineering, IE, Merchandising, Finance and Compliance;
-- structured data assurance and SQL cleaning;
-- Excel operational control;
-- Power BI decision modelling;
-- Looker Studio leadership reporting;
-- incident reconstruction and corrective-action governance;
-- responsible AI and automation design;
-- executive communication and career progression toward CHRO capability.
+[Read the professional case study](docs/CASE_STUDY.md)
 
 ---
 
@@ -98,9 +82,9 @@ The professional challenge requires approximately **10–16 focused hours** and 
 
 ## Data and Evidence Boundary
 
-The current repository contains a synthetic analytical baseline for workforce, recruitment, learning and HR KPI practice. The professional KAS Ltd. case also proposes additional manufacturing-oriented datasets such as machine downtime, quality incidents, production-line KPIs and buyer-order changes.
+The repository contains a synthetic analytical baseline for workforce, recruitment, learning and HR KPI practice. The professional KAS Ltd. case also proposes manufacturing-oriented datasets such as machine downtime, quality incidents, production-line KPIs and buyer-order changes.
 
-Those proposed datasets are challenge extensions and should not be treated as already published evidence unless the corresponding files exist in the repository.
+Proposed datasets must not be treated as published evidence unless the corresponding files are available in the repository or the release practice package.
 
 All analysis must:
 
@@ -165,8 +149,6 @@ bd-hr-analytics/
 ├── database/
 ├── metadata/
 ├── docs/
-│   └── governance/
-├── governance/rulesets/
 ├── participant-submissions/
 │   ├── templates/
 │   └── solutions/
@@ -174,19 +156,18 @@ bd-hr-analytics/
 ├── DATA_PROVENANCE.md
 ├── CITATION.cff
 ├── CHANGELOG.md
-├── RELEASE_NOTES.md
-└── bd-hr-analytics-unified-project.zip
+└── RELEASE_NOTES.md
 ```
+
+Release ZIP files and private repository ruleset packages are intentionally not stored in the `main` branch.
 
 ---
 
 ## Quick Start
 
-### Review the Case
-
 1. Read [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md).
 2. Select a workstream from [`docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md`](docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md).
-3. Review the central CSV files in [`data/csv/`](data/csv/).
+3. Review CSV files in [`data/csv/`](data/csv/).
 4. Open the Excel dashboard in [`dashboards/excel/`](dashboards/excel/).
 5. Review Power BI guidance in [`dashboards/power-bi/README.md`](dashboards/power-bi/README.md).
 
@@ -196,23 +177,15 @@ bd-hr-analytics/
 python scripts/build_sqlite_database.py
 ```
 
-Then open:
-
-```text
-database/bd_hr_analytics.sqlite
-```
-
-in DBeaver or another SQLite client. Full instructions are in [`sql/README.md`](sql/README.md).
+Open `database/bd_hr_analytics.sqlite` in DBeaver or another SQLite client. Full instructions are in [`sql/README.md`](sql/README.md).
 
 ---
 
 ## Participant Submissions
 
-Participants may contribute original solutions through the controlled workspace:
+Participants may contribute original solutions through [`participant-submissions/`](participant-submissions/).
 
-[`participant-submissions/`](participant-submissions/)
-
-Required contribution path:
+Required path:
 
 ```text
 participant-submissions/solutions/<github-username>/<challenge-id>/
@@ -233,22 +206,6 @@ Participant submissions must **not** target or merge directly into `main`. Promo
 
 ---
 
-## Repository Governance
-
-The protected `main` branch rejects direct updates and requires pull requests with status checks. Additional governance templates are stored in [`governance/rulesets/`](governance/rulesets/).
-
-| Governance Resource | Purpose |
-|---|---|
-| [`governance/rulesets/default_branch_pull_request_governance.json`](governance/rulesets/default_branch_pull_request_governance.json) | Default branch pull-request protection template |
-| [`governance/rulesets/participant_review_branch_governance.json`](governance/rulesets/participant_review_branch_governance.json) | Participant review branch protection template |
-| [`governance/rulesets/semantic_version_tag_protection.json`](governance/rulesets/semantic_version_tag_protection.json) | Immutable semantic-version tags |
-| [`docs/governance/GITHUB_PROTECTION_IMPLEMENTATION_GUIDE_BN.md`](docs/governance/GITHUB_PROTECTION_IMPLEMENTATION_GUIDE_BN.md) | Bangla implementation guide |
-| [`.github/workflows/participant-submission-governance.yml`](.github/workflows/participant-submission-governance.yml) | Rejects participant submissions targeting the wrong branch |
-
-Storing a ruleset JSON does not activate it automatically; repository administrators must import or recreate it through GitHub repository settings.
-
----
-
 ## Documentation
 
 | Guide | Purpose |
@@ -257,12 +214,10 @@ Storing a ruleset JSON does not activate it automatically; repository administra
 | [`docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md`](docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md) | Tool-integrated participant assignment |
 | [`docs/PARTICIPANT_SUBMISSION_GOVERNANCE.md`](docs/PARTICIPANT_SUBMISSION_GOVERNANCE.md) | Contribution and review rules |
 | [`docs/PROJECT_USAGE_GUIDE.md`](docs/PROJECT_USAGE_GUIDE.md) | Complete project workflow |
-| [`docs/PROMOTION_PORTFOLIO.md`](docs/PROMOTION_PORTFOLIO.md) | Career and interview positioning |
 | [`docs/ETHICS_AND_LIMITATIONS.md`](docs/ETHICS_AND_LIMITATIONS.md) | Responsible people-analytics safeguards |
-| [`docs/PROJECT_RULES_ALIGNMENT.md`](docs/PROJECT_RULES_ALIGNMENT.md) | Applied and excluded unified project rules |
 | [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) | Synthetic source, generation and limitations |
 | [`sql/README.md`](sql/README.md) | DBeaver, SQLite and data-cleaning workflow |
-| [`RELEASE_NOTES.md`](RELEASE_NOTES.md) | Current release summary |
+| [`RELEASE_NOTES.md`](RELEASE_NOTES.md) | Current release publication notes |
 
 ---
 
@@ -277,18 +232,18 @@ Storing a ruleset JSON does not activate it automatically; repository administra
 
 ---
 
-## Download
+## Practice Package
 
-[Download the unified project ZIP](bd-hr-analytics-unified-project.zip)
+The clean practice package is distributed only through **GitHub Releases**. It contains practice-oriented CSV, JSON, SQLite, Excel, notebook, SQL and Power BI support files. Governance rulesets, changelogs, release notes, repository workflows and Git metadata are excluded.
 
-The same clean archive is intended for GitHub portfolio distribution and Kaggle publication.
+[View Releases and download the latest practice package](https://github.com/samusa099/bd-hr-analytics/releases)
 
 ---
 
 ## Citation
 
 ```text
-Musa. (2026). BD HR Analytics: KAS Ltd. HR Business Partnership and Operating Transformation Case (Version 0.3.0) [Synthetic data and analytics portfolio].
+Musa. (2026). BD HR Analytics: KAS Ltd. HR Business Partnership and Operating Transformation Case (Version 0.4.0) [Synthetic data and analytics portfolio].
 ```
 
 Machine-readable citation metadata: [`CITATION.cff`](CITATION.cff)
