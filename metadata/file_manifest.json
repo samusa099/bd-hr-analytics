@@ -24,6 +24,62 @@
     "size_bytes": 198
   },
   {
+    "path": "assets/project-cover.svg",
+    "size_bytes": 5518
+  },
+  {
+    "path": "dashboards/excel/HR_Strategy_Transformation_Dashboard.xlsx",
+    "size_bytes": 11369
+  },
+  {
+    "path": "dashboards/looker-studio/README.md",
+    "size_bytes": 130
+  },
+  {
+    "path": "dashboards/looker-studio/calculated_fields.md",
+    "size_bytes": 80
+  },
+  {
+    "path": "dashboards/power-bi/README.md",
+    "size_bytes": 113
+  },
+  {
+    "path": "dashboards/power-bi/dashboard-images/01-executive-overview.svg",
+    "size_bytes": 5505
+  },
+  {
+    "path": "dashboards/power-bi/dashboard-images/02-workforce-turnover.svg",
+    "size_bytes": 5507
+  },
+  {
+    "path": "dashboards/power-bi/dashboard-images/03-talent-acquisition.svg",
+    "size_bytes": 5505
+  },
+  {
+    "path": "dashboards/power-bi/dashboard-images/04-learning-manager-capability.svg",
+    "size_bytes": 5516
+  },
+  {
+    "path": "dashboards/power-bi/dashboard-images/05-performance-employee-experience.svg",
+    "size_bytes": 5520
+  },
+  {
+    "path": "dashboards/power-bi/dashboard-images/06-compliance-risk-strategic-initiatives.svg",
+    "size_bytes": 5527
+  },
+  {
+    "path": "dashboards/power-bi/data_model.md",
+    "size_bytes": 142
+  },
+  {
+    "path": "dashboards/power-bi/measures.dax",
+    "size_bytes": 237
+  },
+  {
+    "path": "dashboards/power-bi/theme.json",
+    "size_bytes": 113
+  },
+  {
     "path": "data/csv/data_dictionary.csv",
     "size_bytes": 3727
   },
@@ -74,6 +130,10 @@
   {
     "path": "metadata/dataset-metadata.json",
     "size_bytes": 410
+  },
+  {
+    "path": "metadata/file_manifest.json",
+    "size_bytes": 1658
   },
   {
     "path": "metadata/project_metadata.json",

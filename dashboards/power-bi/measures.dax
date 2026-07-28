@@ -1,0 +1,4 @@
+Headcount = MAX(FactMonthlyKPI[headcount])
+Turnover Rate = AVERAGE(FactMonthlyKPI[annualized_turnover_rate])
+Absenteeism Rate = AVERAGE(FactMonthlyKPI[absenteeism_rate])
+Average Engagement = AVERAGE(FactMonthlyKPI[avg_engagement_score])
