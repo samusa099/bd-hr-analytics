@@ -1,0 +1,109 @@
+﻿requisition_id,department,source,applicants,interviews,offers,joins,time_to_fill_days,cost_per_hire_bdt,quality_of_hire_score,retention_90d_rate,phase
+REQ-0001,Human Resources,LinkedIn,96,23,12,9,54,13000,70.4,0.7192,Before intervention
+REQ-0002,Marketing,Bdjobs,104,21,9,7,50,13500,76.4,0.8124,Before intervention
+REQ-0003,Sales,Bdjobs,108,14,6,4,43,12000,55.5,0.5995,Before intervention
+REQ-0004,Sales,Referral,79,9,3,2,52,5000,66.0,0.7365,Before intervention
+REQ-0005,Operations,Campus,38,9,4,3,74,9500,61.7,0.6728,Before intervention
+REQ-0006,Sales,Campus,58,11,5,4,48,13500,79.9,0.7091,Before intervention
+REQ-0007,Marketing,LinkedIn,30,5,2,1,43,5500,71.5,0.8677,Before intervention
+REQ-0008,Sales,LinkedIn,91,13,6,5,54,12500,71.6,0.5909,Before intervention
+REQ-0009,Supply Chain,Agency,92,13,6,4,59,4000,51.4,0.7578,Before intervention
+REQ-0010,Operations,Bdjobs,39,5,1,1,51,14000,54.5,0.838,Before intervention
+REQ-0011,Sales,Campus,80,10,5,4,43,11500,72.5,0.8052,Before intervention
+REQ-0012,Technology,Campus,44,5,2,1,55,6500,69.7,0.6333,Before intervention
+REQ-0013,Technology,Campus,88,15,8,5,62,15000,62.0,0.7569,Before intervention
+REQ-0014,Human Resources,Agency,40,7,2,1,53,13000,59.7,0.7248,Before intervention
+REQ-0015,Human Resources,Agency,52,10,5,4,63,9000,61.8,0.736,Before intervention
+REQ-0016,Customer Support,Bdjobs,103,17,8,7,50,15000,73.4,0.7225,Before intervention
+REQ-0017,Operations,Bdjobs,49,8,5,4,51,7000,67.4,0.7835,Before intervention
+REQ-0018,Technology,LinkedIn,92,14,8,7,69,6500,60.4,0.8767,Before intervention
+REQ-0019,Sales,Campus,98,15,7,6,63,8000,64.7,0.7382,Before intervention
+REQ-0020,Marketing,Campus,92,17,6,5,50,14000,59.6,0.7383,Before intervention
+REQ-0021,Operations,LinkedIn,53,7,3,2,53,5500,60.6,0.6357,Before intervention
+REQ-0022,Human Resources,Bdjobs,70,13,8,7,56,6000,59.2,0.7448,Before intervention
+REQ-0023,Sales,Agency,36,6,2,1,49,9500,49.5,0.7426,Before intervention
+REQ-0024,Technology,Bdjobs,66,15,8,6,45,15500,62.7,0.8447,Before intervention
+REQ-0025,Operations,Agency,25,5,3,2,54,13500,78.7,0.867,Before intervention
+REQ-0026,Technology,Agency,99,23,12,9,60,7500,73.6,0.8005,Before intervention
+REQ-0027,Sales,Campus,106,17,7,6,51,15000,49.7,0.751,Before intervention
+REQ-0028,Technology,Bdjobs,49,6,2,1,66,11000,58.5,0.748,Before intervention
+REQ-0029,Finance,Bdjobs,74,15,6,4,54,8500,57.3,0.7168,Before intervention
+REQ-0030,Human Resources,Campus,60,8,3,2,60,11000,66.8,0.7024,Before intervention
+REQ-0031,Customer Support,LinkedIn,75,10,5,3,42,11000,71.9,0.7689,Before intervention
+REQ-0032,Human Resources,Agency,86,13,6,4,56,6500,61.1,0.7154,Before intervention
+REQ-0033,Operations,Referral,105,12,6,4,49,10500,65.4,0.8004,Before intervention
+REQ-0034,Supply Chain,LinkedIn,103,18,10,8,53,4000,63.4,0.7485,Before intervention
+REQ-0035,Sales,Agency,31,5,2,1,56,9000,57.3,0.7147,Before intervention
+REQ-0036,Customer Support,Agency,29,6,3,2,63,12500,51.4,0.6775,Before intervention
+REQ-0037,Finance,Bdjobs,61,8,5,4,50,4500,66.3,0.8536,Before intervention
+REQ-0038,Supply Chain,Referral,89,15,5,3,41,7000,62.7,0.6985,Before intervention
+REQ-0039,Human Resources,Agency,39,8,3,2,43,15000,63.4,0.6718,Before intervention
+REQ-0040,Technology,Agency,109,17,11,9,56,8000,54.2,0.7499,Before intervention
+REQ-0041,Human Resources,Campus,74,9,3,2,48,14000,67.1,0.8059,Before intervention
+REQ-0042,Sales,Bdjobs,104,16,9,7,61,9500,58.4,0.723,Before intervention
+REQ-0043,Sales,Agency,55,8,3,2,48,14500,71.3,0.7052,Before intervention
+REQ-0044,Marketing,Agency,106,16,9,7,50,10000,80.9,0.7178,Before intervention
+REQ-0045,Sales,LinkedIn,35,4,2,1,45,4000,48.4,0.7594,Before intervention
+REQ-0046,Operations,Agency,71,10,4,3,53,10000,63.6,0.8154,Before intervention
+REQ-0047,Human Resources,Campus,61,11,4,3,46,14500,56.5,0.7618,Before intervention
+REQ-0048,Sales,Agency,51,11,6,5,71,6500,51.1,0.8345,Before intervention
+REQ-0049,Customer Support,Agency,88,18,8,6,48,15500,64.2,0.7348,Before intervention
+REQ-0050,Customer Support,Agency,56,11,3,2,54,4000,63.3,0.6696,Before intervention
+REQ-0051,Customer Support,Bdjobs,79,19,11,9,55,11000,46.9,0.8964,Before intervention
+REQ-0052,Customer Support,Campus,62,10,6,5,60,8500,64.0,0.6672,Before intervention
+REQ-0053,Supply Chain,Agency,39,6,3,2,55,4000,53.6,0.8453,Before intervention
+REQ-0054,Human Resources,Referral,69,8,5,3,60,15000,58.0,0.8287,Before intervention
+REQ-0055,Sales,Agency,54,13,5,4,30,9000,64.1,0.8278,After intervention
+REQ-0056,Customer Support,Referral,40,9,3,2,44,12000,78.3,0.7469,After intervention
+REQ-0057,Sales,LinkedIn,27,3,1,1,36,11500,73.6,0.8854,After intervention
+REQ-0058,Marketing,Campus,63,9,4,3,25,5500,87.7,0.7118,After intervention
+REQ-0059,Technology,Bdjobs,29,4,2,1,37,7000,75.0,0.8857,After intervention
+REQ-0060,Customer Support,Campus,47,7,3,2,34,14500,90.0,1,After intervention
+REQ-0061,Technology,Bdjobs,77,16,7,6,33,4000,71.6,0.851,After intervention
+REQ-0062,Operations,Agency,83,18,8,5,32,11500,89.6,1,After intervention
+REQ-0063,Finance,LinkedIn,59,12,7,5,29,9000,86.2,0.8262,After intervention
+REQ-0064,Supply Chain,Agency,109,17,10,8,31,10500,83.3,0.8504,After intervention
+REQ-0065,Marketing,LinkedIn,87,16,8,5,36,5000,84.1,0.9163,After intervention
+REQ-0066,Supply Chain,LinkedIn,53,11,6,4,31,14500,77.1,0.9038,After intervention
+REQ-0067,Supply Chain,Bdjobs,83,18,7,5,33,8000,79.2,0.7979,After intervention
+REQ-0068,Human Resources,Campus,65,9,3,2,24,6500,74.6,0.7779,After intervention
+REQ-0069,Human Resources,Bdjobs,91,21,12,9,35,8500,81.9,0.8919,After intervention
+REQ-0070,Operations,LinkedIn,29,4,1,1,31,5000,78.5,0.9606,After intervention
+REQ-0071,Marketing,Campus,85,16,7,5,23,13500,90.5,0.957,After intervention
+REQ-0072,Customer Support,Campus,81,17,9,8,24,14000,88.4,0.8107,After intervention
+REQ-0073,Human Resources,Referral,55,12,5,3,36,6500,80.2,0.8751,After intervention
+REQ-0074,Sales,Agency,60,9,3,2,34,12500,84.3,0.7942,After intervention
+REQ-0075,Finance,LinkedIn,38,7,2,1,34,9000,91.5,0.9141,After intervention
+REQ-0076,Operations,Agency,66,12,7,5,37,4500,74.9,0.8158,After intervention
+REQ-0077,Operations,Agency,49,6,3,2,21,14000,81.1,0.854,After intervention
+REQ-0078,Human Resources,Agency,87,12,5,4,39,12000,71.1,0.8214,After intervention
+REQ-0079,Operations,Bdjobs,47,10,6,4,21,10500,88.1,0.7623,After intervention
+REQ-0080,Operations,Referral,42,10,5,3,16,10500,80.7,0.7337,After intervention
+REQ-0081,Human Resources,LinkedIn,107,16,7,5,35,12500,77.0,0.8004,After intervention
+REQ-0082,Marketing,LinkedIn,52,8,3,2,37,5000,79.2,0.8682,After intervention
+REQ-0083,Human Resources,Bdjobs,72,12,6,4,41,11000,67.1,0.9238,After intervention
+REQ-0084,Operations,Bdjobs,90,12,6,4,32,13000,70.6,0.9884,After intervention
+REQ-0085,Human Resources,Bdjobs,82,16,9,6,44,8000,69.7,0.8491,After intervention
+REQ-0086,Supply Chain,Bdjobs,101,16,7,6,32,11500,85.9,0.8639,After intervention
+REQ-0087,Sales,Bdjobs,39,5,3,2,31,9500,88.9,0.8344,After intervention
+REQ-0088,Finance,Bdjobs,67,10,6,5,34,5500,72.9,0.8661,After intervention
+REQ-0089,Finance,LinkedIn,30,4,1,1,37,10000,87.3,0.799,After intervention
+REQ-0090,Finance,LinkedIn,93,15,8,6,36,10500,81.6,0.9105,After intervention
+REQ-0091,Human Resources,Campus,63,8,2,1,37,13500,95.4,0.8805,After intervention
+REQ-0092,Marketing,Agency,42,6,2,1,23,5000,72.9,0.882,After intervention
+REQ-0093,Human Resources,Agency,43,7,4,3,41,6000,85.2,0.8129,After intervention
+REQ-0094,Technology,Campus,26,3,1,1,23,14500,68.2,0.9292,After intervention
+REQ-0095,Operations,Campus,86,11,5,4,35,9500,93.6,0.6556,After intervention
+REQ-0096,Finance,Bdjobs,28,3,1,1,40,12500,84.5,0.9333,After intervention
+REQ-0097,Technology,Agency,84,17,8,7,24,15000,70.4,0.7853,After intervention
+REQ-0098,Finance,Agency,33,7,3,2,33,9500,83.7,0.8244,After intervention
+REQ-0099,Sales,Campus,64,14,5,4,35,6000,84.0,0.8647,After intervention
+REQ-0100,Supply Chain,Agency,75,10,4,3,34,14500,87.8,0.8277,After intervention
+REQ-0101,Sales,Referral,65,10,5,3,40,7500,77.9,0.8935,After intervention
+REQ-0102,Operations,LinkedIn,81,12,5,4,44,10000,87.0,0.7736,After intervention
+REQ-0103,Marketing,Referral,27,3,1,1,41,14000,77.5,0.8127,After intervention
+REQ-0104,Marketing,LinkedIn,59,8,4,3,41,12000,73.6,0.8697,After intervention
+REQ-0105,Technology,Bdjobs,53,11,6,5,27,9000,82.9,1,After intervention
+REQ-0106,Finance,Agency,29,3,1,1,43,9500,79.0,0.8353,After intervention
+REQ-0107,Technology,Bdjobs,50,9,4,3,33,12000,61.4,1,After intervention
+REQ-0108,Marketing,Campus,70,14,7,6,33,4500,82.8,0.8528,After intervention

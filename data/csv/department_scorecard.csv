@@ -1,0 +1,9 @@
+﻿department,headcount,turnover_rate,absenteeism_rate,engagement_score,performance_score,overtime_hours,vacancy_days,people_risk_index,risk_band,priority_action
+Operations,26,0.2305,0.0991,72.7,77.2,152.1,46.5,20.3,High,Retention and manager action plan
+Sales,30,0.2181,0.0937,72.2,76.7,143.9,44.0,19.2,High,Retention and manager action plan
+Customer Support,26,0.2057,0.0884,77.3,73.5,135.7,41.5,18.1,High,Retention and manager action plan
+Technology,25,0.1933,0.0831,76.8,76.6,127.5,39.0,17.0,Medium,Capability and workforce planning
+Finance,26,0.1809,0.0777,77.6,79.0,119.3,36.5,15.9,Medium,Capability and workforce planning
+Human Resources,26,0.1685,0.0724,75.0,78.3,111.2,34.0,14.8,Medium,Capability and workforce planning
+Supply Chain,27,0.156,0.0671,76.9,76.9,103.0,31.5,13.7,Medium,Capability and workforce planning
+Marketing,27,0.1436,0.0617,73.9,74.4,94.8,29.0,12.6,Low,Capability and workforce planning

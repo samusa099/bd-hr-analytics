@@ -1,0 +1,281 @@
+﻿employee_id,department,designation_level,location,hire_date,employment_status,monthly_salary_bdt,engagement_score,performance_score,absence_rate,monthly_overtime_hours,training_hours_last_12m,critical_role,people_risk_score,risk_band
+NCS-0001,Technology,Senior Executive,Gazipur,2023-12-08,Active,78000,51.7,47.3,0.0717,20.9,20.2,Yes,26.7,Medium
+NCS-0002,Human Resources,Executive,Narayanganj,2025-03-03,Active,37000,62.8,80.6,0.0398,34.1,20.5,Yes,19.3,Low
+NCS-0003,Sales,Assistant Manager,Dhaka,2023-01-24,Active,64500,77.2,59.4,0.0914,24.3,15.8,No,16.5,Low
+NCS-0004,Finance,Assistant Manager,Narayanganj,2023-03-21,Active,60500,63.7,72.9,0.0803,31.2,24.8,Yes,19.8,Low
+NCS-0005,Operations,Entry,Dhaka,2023-03-25,Active,42000,85.7,76.9,0.0936,2.9,19.7,No,8.2,Low
+NCS-0006,Human Resources,Assistant Manager,Narayanganj,2024-03-03,Active,31000,74.3,76.9,0.0604,13.3,21.1,No,12.8,Low
+NCS-0007,Operations,Entry,Dhaka,2024-01-27,Active,30000,73.6,79.2,0.0899,5.3,12.4,Yes,12.7,Low
+NCS-0008,Marketing,Assistant Manager,Narayanganj,2024-03-17,Active,79000,84.1,71.8,0.1079,35.6,27.2,No,14.1,Low
+NCS-0009,Human Resources,Entry,Gazipur,2023-09-12,Active,57000,74.6,71.4,0.1178,20.0,4.7,No,15.4,Low
+NCS-0010,Finance,Entry,Remote,2023-06-09,Active,63000,52.0,65.7,0.0584,16.7,13.6,No,21.9,Low
+NCS-0011,Operations,Senior Executive,Narayanganj,2024-09-13,Active,63500,53.9,51.4,0.1052,30.6,23.8,No,27.6,Medium
+NCS-0012,Finance,Senior Executive,Narayanganj,2024-09-30,Active,72000,65.9,72.8,0.0294,3.2,18.7,Yes,13.3,Low
+NCS-0013,Supply Chain,Assistant Manager,Remote,2024-06-28,Active,70500,82.4,80.1,0.0793,20.8,13.4,Yes,11.7,Low
+NCS-0014,Operations,Executive,Remote,2026-03-19,Active,82500,54.1,92.8,0.0779,30.1,19.8,No,22.9,Medium
+NCS-0015,Supply Chain,Entry,Remote,2023-11-21,Active,42500,95,72.3,0.099,29.7,18.1,No,9.2,Low
+NCS-0016,Supply Chain,Senior Executive,Narayanganj,2024-07-25,Active,36000,77.4,71.1,0.0319,21.7,17.9,No,12.1,Low
+NCS-0017,Sales,Entry,Gazipur,2024-03-30,Active,48500,60.4,77.6,0.0875,13.9,26.5,No,18.6,Low
+NCS-0018,Operations,Entry,Narayanganj,2025-09-06,Active,72500,60.6,66.9,0.1138,30.3,26.5,No,22.3,Medium
+NCS-0019,Supply Chain,Executive,Remote,2024-03-16,Active,40000,84.8,85.2,0.0694,22.9,22.3,No,10.8,Low
+NCS-0020,Marketing,Entry,Narayanganj,2023-04-10,Active,68500,60.7,65.8,0.0442,6.7,11.2,Yes,16.9,Low
+NCS-0021,Operations,Entry,Gazipur,2025-04-06,Active,35000,78.2,55.2,0.1034,22.8,12.2,Yes,17.1,Low
+NCS-0022,Technology,Assistant Manager,Narayanganj,2025-07-25,Active,38000,78.5,73.6,0.037,24.8,6.7,No,12.4,Low
+NCS-0023,Marketing,Assistant Manager,Gazipur,2023-05-31,Active,61500,73.5,66.2,0.131,20.9,21.2,Yes,17.1,Low
+NCS-0024,Marketing,Assistant Manager,Dhaka,2024-01-19,Active,40500,70.8,86.7,0.0824,12.1,16.5,Yes,14.5,Low
+NCS-0025,Customer Support,Executive,Gazipur,2024-04-09,Active,37000,62.3,95,0.052,36.6,14.9,Yes,20.2,Low
+NCS-0026,Sales,Entry,Dhaka,2025-11-15,Active,25000,75.3,78.6,0.0549,14.2,16.3,No,12.4,Low
+NCS-0027,Customer Support,Senior Executive,Dhaka,2023-03-17,Active,41000,85.6,78.7,0.0889,18.2,18.3,Yes,10.4,Low
+NCS-0028,Sales,Entry,Narayanganj,2025-12-03,Active,34000,76.8,60.7,0.1062,11.2,31.5,No,14.8,Low
+NCS-0029,Sales,Entry,Remote,2025-02-02,Active,46000,79.8,64.1,0.1381,8.9,0.7,No,13.7,Low
+NCS-0030,Finance,Assistant Manager,Remote,2025-10-31,Active,73000,65.8,79.7,0.0684,20.6,14.9,Yes,17.1,Low
+NCS-0031,Finance,Executive,Remote,2025-12-31,Active,44500,76.7,75.3,0.0975,13.1,9.0,Yes,13.0,Low
+NCS-0032,Operations,Executive,Gazipur,2023-09-30,Active,80500,68.1,68.3,0.1896,27.6,11.3,No,21.3,Low
+NCS-0033,Technology,Assistant Manager,Remote,2024-04-25,Active,65500,48.3,56.7,0.0641,10.1,27.1,No,24.2,Medium
+NCS-0034,Human Resources,Executive,Dhaka,2023-10-18,Active,60000,67.3,85.0,0.0826,31.7,21.5,Yes,18.7,Low
+NCS-0035,Customer Support,Executive,Gazipur,2023-11-07,Active,37000,60.3,66.9,0.1283,16.9,30.7,Yes,20.9,Low
+NCS-0036,Human Resources,Executive,Gazipur,2023-09-13,Active,43500,80.6,70.5,0.1079,9.4,14.8,Yes,11.5,Low
+NCS-0037,Technology,Assistant Manager,Remote,2025-12-14,Active,83000,64.6,95,0.0432,30.3,23.8,No,18.2,Low
+NCS-0038,Finance,Entry,Remote,2025-04-19,Active,81000,78.2,78.5,0.0187,20.4,24.7,No,11.2,Low
+NCS-0039,Finance,Entry,Gazipur,2023-09-25,Active,66500,81.0,74.4,0.0819,14.8,16.6,No,11.3,Low
+NCS-0040,Operations,Entry,Dhaka,2026-02-06,Active,82000,74.0,64.8,0.1177,13.7,22.1,Yes,15.7,Low
+NCS-0041,Sales,Executive,Narayanganj,2025-07-07,Active,38500,63.6,57.8,0.101,12.2,22.6,Yes,20.0,Low
+NCS-0042,Human Resources,Executive,Gazipur,2023-05-01,Active,29000,56.3,95,0.0992,14.7,25.7,Yes,20.5,Low
+NCS-0043,Sales,Entry,Gazipur,2024-07-30,Active,40500,73.0,62.0,0.0827,21.0,21.2,No,16.7,Low
+NCS-0044,Supply Chain,Entry,Remote,2024-01-24,Active,75000,71.1,81.4,0.092,15.4,16.4,No,15.2,Low
+NCS-0045,Technology,Entry,Dhaka,2023-05-15,Active,57500,71.0,89.5,0.0644,9.0,7.8,Yes,13.5,Low
+NCS-0046,Customer Support,Executive,Gazipur,2025-05-05,Active,82500,62.2,65.4,0.0695,7.9,6.2,No,17.4,Low
+NCS-0047,Human Resources,Entry,Gazipur,2024-12-17,Active,65000,44.8,63.3,0.0727,25.0,9.3,No,26.6,Medium
+NCS-0048,Operations,Executive,Remote,2026-03-31,Active,45500,59.4,54.1,0.0785,17.7,18.3,No,22.4,Medium
+NCS-0049,Sales,Entry,Dhaka,2024-04-14,Active,53500,67.1,83.6,0.0397,30.6,19.2,Yes,17.3,Low
+NCS-0050,Sales,Executive,Gazipur,2024-08-18,Active,39500,59.5,77.6,0.0618,21.5,11.5,No,19.3,Low
+NCS-0051,Operations,Executive,Remote,2024-08-28,Active,24500,81.1,65.8,0.0542,33.0,9.2,No,14.0,Low
+NCS-0052,Finance,Senior Executive,Gazipur,2024-08-15,Active,67500,67.5,86.3,0.0338,18.5,22.0,Yes,15.1,Low
+NCS-0053,Human Resources,Senior Executive,Gazipur,2026-03-04,Active,78500,56.9,76.3,0.0716,15.3,27.9,No,19.5,Low
+NCS-0054,Marketing,Executive,Remote,2025-12-24,Active,77000,69.4,74.9,0.1122,16.1,4.5,No,16.5,Low
+NCS-0055,Human Resources,Assistant Manager,Remote,2023-05-20,Active,46000,68.4,80.0,0.0767,9.4,19.2,No,14.8,Low
+NCS-0056,Operations,Executive,Narayanganj,2024-07-07,Active,76000,58.4,60.9,0.0187,21.3,25.3,No,20.1,Low
+NCS-0057,Technology,Assistant Manager,Narayanganj,2024-01-03,Active,50500,61.5,87.4,0.0445,39.6,26.4,No,20.8,Low
+NCS-0058,Sales,Executive,Gazipur,2024-07-04,Active,56500,58.1,62.6,0.0874,7.1,30.1,No,19.8,Low
+NCS-0059,Finance,Executive,Narayanganj,2024-02-01,Active,43000,72.5,49.7,0.0561,21.6,23.1,Yes,18.6,Low
+NCS-0060,Marketing,Assistant Manager,Remote,2023-10-23,Active,33000,68.1,66.8,0.1765,9.1,19.4,No,18.5,Low
+NCS-0061,Finance,Assistant Manager,Gazipur,2026-04-09,Active,53000,71.2,66.4,0.1163,14.8,22.9,No,16.5,Low
+NCS-0062,Technology,Executive,Dhaka,2025-01-23,Active,39500,69.9,58.6,0.0884,13.2,10.2,Yes,17.4,Low
+NCS-0063,Marketing,Assistant Manager,Gazipur,2025-12-07,Active,73000,84.0,57.7,0.1017,9.8,9.9,Yes,12.6,Low
+NCS-0064,Technology,Executive,Remote,2025-08-27,Active,49000,79.0,54.1,0.0567,9.7,13.3,No,13.7,Low
+NCS-0065,Supply Chain,Assistant Manager,Remote,2025-05-03,Active,39000,54.0,60.0,0.0127,8.7,11.7,No,19.8,Low
+NCS-0066,Supply Chain,Assistant Manager,Remote,2026-01-08,Active,65500,68.2,68.9,0.0632,15.1,27.2,Yes,15.5,Low
+NCS-0067,Operations,Senior Executive,Narayanganj,2023-03-14,Active,76500,86.6,73.3,0.0641,16.4,5.7,No,9.1,Low
+NCS-0068,Operations,Assistant Manager,Dhaka,2025-12-05,Active,77000,76.4,77.6,0.0973,20.1,34.3,No,14.2,Low
+NCS-0069,Finance,Entry,Narayanganj,2023-12-04,Active,73500,64.7,59.1,0.0918,26.5,18.5,No,21.3,Low
+NCS-0070,Marketing,Entry,Remote,2024-11-28,Active,39000,59.7,78.5,0.1131,18.5,12.2,Yes,20.3,Low
+NCS-0071,Marketing,Senior Executive,Gazipur,2023-11-28,Active,26500,60.8,68.8,0.105,15.6,40.3,No,19.4,Low
+NCS-0072,Marketing,Executive,Remote,2025-01-01,Active,27000,68.0,73.0,0.0726,23.2,30.1,Yes,16.9,Low
+NCS-0073,Marketing,Assistant Manager,Dhaka,2024-01-16,Active,58000,74.5,65.9,0.0972,23.0,12.8,No,16.1,Low
+NCS-0074,Customer Support,Assistant Manager,Narayanganj,2025-09-22,Active,76500,57.8,67.4,0.0952,27.8,15.8,No,22.3,Medium
+NCS-0075,Technology,Executive,Dhaka,2024-05-19,Active,60500,74.4,74.5,0.0189,25.8,22.2,No,13.4,Low
+NCS-0076,Sales,Senior Executive,Gazipur,2025-02-27,Active,65500,94.2,48.8,0.0672,13.5,21.2,Yes,10.3,Low
+NCS-0077,Technology,Senior Executive,Gazipur,2024-10-16,Active,29000,48.9,85.4,0.1243,17.4,17.6,Yes,24.2,Medium
+NCS-0078,Sales,Executive,Dhaka,2024-01-25,Active,78500,48.0,84.0,0.1458,17.2,17.6,No,25.2,Medium
+NCS-0079,Human Resources,Executive,Gazipur,2023-02-07,Active,67500,66.1,82.0,0.0695,17.5,29.9,No,16.6,Low
+NCS-0080,Sales,Assistant Manager,Dhaka,2024-07-03,Active,80500,64.4,88.4,0.1294,20.2,29.8,No,19.4,Low
+NCS-0081,Supply Chain,Assistant Manager,Remote,2025-11-21,Active,65500,77.0,83.4,0.083,19.6,21.7,No,13.5,Low
+NCS-0082,Supply Chain,Assistant Manager,Dhaka,2023-08-16,Active,56000,75.1,91.2,0.0984,26.9,15.0,No,15.7,Low
+NCS-0083,Sales,Entry,Dhaka,2023-09-09,Active,32500,68.7,89.9,0.0977,38.4,25.1,No,19.6,Low
+NCS-0084,Marketing,Senior Executive,Narayanganj,2024-10-25,Active,84000,64.5,75.4,0.1151,3.7,26.0,No,16.4,Low
+NCS-0085,Sales,Executive,Remote,2026-01-06,Active,31500,84.6,72.3,0.0771,15.3,17.2,No,10.0,Low
+NCS-0086,Sales,Senior Executive,Remote,2025-12-16,Active,32500,79.9,74.7,0.0988,8.3,13.5,Yes,11.3,Low
+NCS-0087,Human Resources,Assistant Manager,Remote,2023-10-11,Active,39500,61.1,92.8,0.0705,6.2,22.3,Yes,16.6,Low
+NCS-0088,Finance,Senior Executive,Remote,2023-02-23,Active,49000,81.2,67.2,0.0662,14.9,13.9,No,11.3,Low
+NCS-0089,Marketing,Assistant Manager,Narayanganj,2023-10-07,Active,67500,76.0,76.2,0.0914,15.7,14.0,No,13.5,Low
+NCS-0090,Marketing,Executive,Gazipur,2023-08-12,Active,35500,95,64.3,0.1247,14.4,0.5,No,8.8,Low
+NCS-0091,Sales,Assistant Manager,Gazipur,2025-04-02,Active,72000,76.4,82.7,0.0626,24.3,17.3,No,13.8,Low
+NCS-0092,Operations,Executive,Narayanganj,2025-08-20,Active,60000,56.3,77.8,0.0539,21.9,22.9,Yes,20.2,Low
+NCS-0093,Sales,Entry,Narayanganj,2024-12-14,Active,35000,82.9,64.9,0.1,18.1,19.2,Yes,12.7,Low
+NCS-0094,Operations,Assistant Manager,Gazipur,2023-01-22,Active,34000,51.1,60.7,0.1259,13.2,14.4,Yes,24.8,Medium
+NCS-0095,Finance,Senior Executive,Narayanganj,2023-04-27,Active,40000,39.8,85.9,0.092,21.3,12.7,Yes,27.0,Medium
+NCS-0096,Operations,Assistant Manager,Gazipur,2026-01-08,Active,45000,85.8,67.2,0.0922,8.6,21.9,No,9.6,Low
+NCS-0097,Operations,Assistant Manager,Gazipur,2023-08-22,Active,56500,69.6,67.6,0.0463,28.0,19.5,No,16.7,Low
+NCS-0098,Technology,Assistant Manager,Remote,2026-02-26,Active,67500,67.4,67.3,0.1071,21.3,20.7,No,18.4,Low
+NCS-0099,Technology,Assistant Manager,Dhaka,2026-03-23,Active,41500,68.6,86.1,0.0639,10.7,11.4,No,14.5,Low
+NCS-0100,Human Resources,Assistant Manager,Remote,2025-08-27,Active,64000,65.8,86.2,0.045,21.3,16.3,No,16.5,Low
+NCS-0101,Supply Chain,Assistant Manager,Remote,2023-03-02,Active,55000,77.5,82.3,0.0783,24.8,16.9,No,13.9,Low
+NCS-0102,Operations,Executive,Gazipur,2023-08-21,Active,74000,59.9,63.7,0.061,17.7,16.9,No,19.8,Low
+NCS-0103,Supply Chain,Executive,Dhaka,2025-09-08,Active,31500,80.4,95,0.0429,25.1,8.2,No,11.9,Low
+NCS-0104,Marketing,Senior Executive,Gazipur,2024-09-02,Active,72500,76.3,87.8,0.0404,37.7,37.0,No,15.2,Low
+NCS-0105,Supply Chain,Executive,Narayanganj,2024-01-26,Active,56000,84.2,67.4,0.0265,20.8,32.3,Yes,10.0,Low
+NCS-0106,Human Resources,Assistant Manager,Dhaka,2023-07-03,Active,72000,68.1,78.9,0.0762,29.6,19.5,Yes,17.9,Low
+NCS-0107,Supply Chain,Executive,Dhaka,2024-10-20,Active,36500,55.9,76.1,0.0381,5.4,0.8,No,17.4,Low
+NCS-0108,Customer Support,Entry,Gazipur,2023-07-08,Active,80000,91.2,64.6,0.0736,35.4,19.2,No,11.7,Low
+NCS-0109,Supply Chain,Executive,Narayanganj,2024-04-15,Active,53000,61.8,71.9,0.1046,4.0,23.5,No,17.1,Low
+NCS-0110,Operations,Assistant Manager,Narayanganj,2024-02-29,Active,49000,58.0,78.2,0.0605,10.4,12.3,No,18.1,Low
+NCS-0111,Human Resources,Entry,Gazipur,2025-05-30,Active,33000,66.5,89.3,0.0679,13.4,32.2,No,15.8,Low
+NCS-0112,Customer Support,Executive,Gazipur,2025-07-14,Active,65500,59.2,57.9,0.1181,14.7,18.6,Yes,22.4,Medium
+NCS-0113,Customer Support,Executive,Dhaka,2023-10-05,Active,78500,66.9,83.6,0.0533,19.0,27.6,Yes,16.0,Low
+NCS-0114,Operations,Entry,Gazipur,2023-08-23,Active,63000,77.1,75.1,0.0583,11.7,23.2,No,11.5,Low
+NCS-0115,Technology,Executive,Gazipur,2023-08-15,Active,39500,69.9,62.6,0.1021,17.8,23.3,No,17.7,Low
+NCS-0116,Human Resources,Entry,Dhaka,2023-05-08,Active,26000,82.7,62.1,0.0833,18.9,14.3,No,13.0,Low
+NCS-0117,Supply Chain,Executive,Gazipur,2025-09-07,Active,65500,77.6,80.0,0.0639,8.7,16.4,Yes,11.1,Low
+NCS-0118,Sales,Entry,Remote,2024-03-25,Active,38500,68.1,70.0,0.0504,27.8,24.5,Yes,16.9,Low
+NCS-0119,Sales,Assistant Manager,Gazipur,2024-05-13,Active,63000,74.6,66.2,0.0555,34.5,12.2,Yes,16.5,Low
+NCS-0120,Supply Chain,Senior Executive,Narayanganj,2026-02-15,Active,31000,58.8,62.0,0.0911,20.3,21.8,No,21.8,Low
+NCS-0121,Sales,Executive,Narayanganj,2024-05-14,Active,71000,95,59.6,0.1312,18.7,22.0,No,10.6,Low
+NCS-0122,Operations,Assistant Manager,Narayanganj,2023-05-31,Active,61500,60.0,61.4,0.1339,42.2,26.7,No,26.1,Medium
+NCS-0123,Human Resources,Senior Executive,Dhaka,2025-07-05,Active,64500,63.9,77.8,0.101,14.0,12.7,Yes,17.8,Low
+NCS-0124,Finance,Entry,Gazipur,2023-09-17,Active,62000,69.6,77.0,0.018,10.6,17.5,No,12.8,Low
+NCS-0125,Marketing,Senior Executive,Remote,2024-04-12,Active,31000,82.0,69.4,0.0841,33.4,14.4,Yes,13.9,Low
+NCS-0126,Supply Chain,Senior Executive,Gazipur,2023-01-05,Active,75000,59.8,73.3,0.0718,11.1,16.1,Yes,17.9,Low
+NCS-0127,Technology,Entry,Remote,2025-03-15,Active,34500,42.5,74.1,0.0845,15.2,24.5,No,25.0,Medium
+NCS-0128,Supply Chain,Executive,Gazipur,2023-09-20,Active,82500,82.0,62.5,0.086,26.1,12.1,No,14.3,Low
+NCS-0129,Marketing,Senior Executive,Remote,2024-04-23,Active,63000,58.0,67.6,0.0969,17.9,18.3,Yes,20.8,Low
+NCS-0130,Sales,Senior Executive,Dhaka,2024-09-08,Active,44500,61.0,73.9,0.0804,28.9,13.6,No,20.4,Low
+NCS-0131,Marketing,Senior Executive,Narayanganj,2025-02-15,Active,65000,66.0,61.8,0.0185,22.8,4.4,Yes,17.5,Low
+NCS-0132,Marketing,Executive,Dhaka,2023-04-19,Active,69500,79.3,71.5,0.1254,21.6,13.2,Yes,14.2,Low
+NCS-0133,Sales,Entry,Remote,2025-09-25,Active,62000,59.4,73.8,0.047,8.5,8.8,No,16.9,Low
+NCS-0134,Finance,Senior Executive,Narayanganj,2025-09-10,Active,49000,85.3,80.2,0.1044,23.2,11.9,Yes,11.7,Low
+NCS-0135,Marketing,Senior Executive,Remote,2024-11-11,Active,59000,51.3,77.3,0.0589,17.1,13.8,No,21.4,Low
+NCS-0136,Supply Chain,Assistant Manager,Dhaka,2024-01-19,Active,69000,55.1,82.9,0.0754,6.0,18.3,No,18.9,Low
+NCS-0137,Sales,Assistant Manager,Dhaka,2023-09-13,Active,32000,74.5,70.2,0.0761,25.3,27.1,Yes,15.0,Low
+NCS-0138,Human Resources,Executive,Narayanganj,2024-03-31,Active,81500,61.4,69.4,0.1155,18.4,20.9,Yes,19.9,Low
+NCS-0139,Operations,Assistant Manager,Remote,2026-02-22,Active,36000,85.7,87.5,0.1021,24.0,26.9,No,11.7,Low
+NCS-0140,Sales,Executive,Remote,2024-11-21,Active,51000,79.1,64.9,0.0555,14.9,24.6,No,12.3,Low
+NCS-0141,Human Resources,Entry,Remote,2024-06-30,Active,44500,75.1,77.8,0.0886,5.2,15.7,No,12.1,Low
+NCS-0142,Supply Chain,Senior Executive,Remote,2023-06-28,Active,35000,75.0,80.9,0.0395,14.9,16.3,No,12.2,Low
+NCS-0143,Finance,Executive,Narayanganj,2024-12-17,Active,62500,62.9,85.2,0.1299,12.8,19.5,Yes,18.8,Low
+NCS-0144,Finance,Executive,Narayanganj,2024-05-09,Active,39500,71.2,52.8,0.0292,29.6,24.2,No,18.8,Low
+NCS-0145,Supply Chain,Assistant Manager,Dhaka,2025-10-09,Active,47000,91.2,79.2,0.0585,21.8,20.4,No,8.1,Low
+NCS-0146,Sales,Entry,Gazipur,2025-11-23,Active,81500,91.4,56.3,0.0953,16.6,27.6,No,11.1,Low
+NCS-0147,Operations,Senior Executive,Dhaka,2024-04-21,Active,57500,73.1,68.7,0.0473,12.0,28.1,Yes,12.9,Low
+NCS-0148,Supply Chain,Assistant Manager,Gazipur,2023-01-13,Active,70500,51.1,95,0.0166,24.1,13.7,No,21.2,Low
+NCS-0149,Marketing,Senior Executive,Gazipur,2024-05-23,Active,26000,79.8,72.9,0.071,14.4,25.3,No,11.3,Low
+NCS-0150,Marketing,Executive,Dhaka,2024-08-14,Active,64500,71.8,71.5,0.0414,5.0,15.4,No,11.9,Low
+NCS-0151,Marketing,Senior Executive,Gazipur,2025-03-10,Active,29500,67.4,59.7,0.0618,28.6,8.6,No,19.6,Low
+NCS-0152,Technology,Assistant Manager,Narayanganj,2024-11-15,Active,32500,62.6,53.1,0.1172,15.3,9.4,No,22.3,Medium
+NCS-0153,Customer Support,Entry,Dhaka,2024-01-16,Active,70000,78.8,83.5,0.128,12.3,19.9,No,13.1,Low
+NCS-0154,Marketing,Assistant Manager,Narayanganj,2024-02-25,Active,56500,61.9,81.4,0.1466,11.7,25.7,No,19.5,Low
+NCS-0155,Marketing,Executive,Gazipur,2026-02-12,Active,43000,72.1,55.9,0.0845,19.9,36.8,Yes,18.1,Low
+NCS-0156,Human Resources,Executive,Remote,2023-12-10,Active,82000,60.1,65.2,0.0246,16.9,17.3,No,18.2,Low
+NCS-0157,Sales,Assistant Manager,Remote,2024-06-28,Active,76000,71.5,74.7,0.1026,0,17.3,No,13.0,Low
+NCS-0158,Technology,Assistant Manager,Remote,2023-01-09,Active,31500,65.2,72.3,0.0482,24.1,21.8,Yes,17.2,Low
+NCS-0159,Supply Chain,Senior Executive,Dhaka,2023-07-18,Active,33500,67.7,72.8,0.0344,15.2,14.9,No,14.6,Low
+NCS-0160,Sales,Senior Executive,Gazipur,2023-04-16,Active,43500,60.7,70.8,0.0388,21.2,12.0,No,18.1,Low
+NCS-0161,Operations,Executive,Narayanganj,2025-03-02,Active,29500,66.4,68.9,0.0449,6.7,18.3,No,14.3,Low
+NCS-0162,Operations,Executive,Gazipur,2023-11-24,Active,51500,62.3,67.4,0.1057,15.0,38.9,No,19.2,Low
+NCS-0163,Human Resources,Senior Executive,Remote,2024-04-08,Active,67500,68.4,78.4,0.0142,23.0,16.6,No,14.9,Low
+NCS-0164,Sales,Senior Executive,Dhaka,2025-01-25,Active,28000,73.1,80.3,0.0674,19.8,15.2,No,14.4,Low
+NCS-0165,Marketing,Senior Executive,Dhaka,2025-02-11,Active,70500,70.5,74.0,0.0925,15.6,18.2,No,15.4,Low
+NCS-0166,Marketing,Assistant Manager,Dhaka,2025-08-13,Active,72500,69.2,64.6,0.1224,14.3,17.1,Yes,17.7,Low
+NCS-0167,Human Resources,Senior Executive,Narayanganj,2025-12-06,Active,73000,48.3,70.0,0.142,25.6,8.1,No,26.2,Medium
+NCS-0168,Technology,Assistant Manager,Dhaka,2023-12-09,Active,80500,56.4,59.6,0.0524,28.3,25.6,No,23.2,Medium
+NCS-0169,Sales,Executive,Gazipur,2025-02-12,Active,32500,77.0,60.1,0.0962,26.6,20.5,No,16.9,Low
+NCS-0170,Customer Support,Assistant Manager,Dhaka,2025-01-25,Active,81500,59.2,77.8,0.1075,29.2,19.8,No,21.9,Low
+NCS-0171,Customer Support,Assistant Manager,Remote,2025-07-24,Active,32000,62.2,77.3,0.0747,16.4,12.7,No,17.9,Low
+NCS-0172,Customer Support,Executive,Dhaka,2024-07-28,Active,64000,58.7,64.4,0.0286,21.1,13.1,Yes,19.6,Low
+NCS-0173,Human Resources,Senior Executive,Narayanganj,2023-12-11,Active,41500,59.4,75.1,0.0874,19.1,23.2,No,19.7,Low
+NCS-0174,Customer Support,Assistant Manager,Remote,2024-02-23,Active,31500,63.8,62.2,0.0347,15.1,28.0,No,17.6,Low
+NCS-0175,Technology,Entry,Remote,2023-05-13,Active,71000,73.7,63.4,0.0734,12.7,5.1,No,14.6,Low
+NCS-0176,Marketing,Assistant Manager,Gazipur,2023-01-17,Active,73500,77.4,90.3,0.083,16.6,12.5,No,12.9,Low
+NCS-0177,Sales,Executive,Dhaka,2023-11-10,Active,52000,72.4,72.6,0.1011,16.7,14.0,Yes,15.2,Low
+NCS-0178,Technology,Executive,Gazipur,2026-03-26,Active,84500,66.9,73.7,0.0696,22.2,25.7,No,17.0,Low
+NCS-0179,Supply Chain,Executive,Narayanganj,2025-06-09,Active,77500,46.1,69.9,0.088,22.6,23.0,No,24.9,Medium
+NCS-0180,Human Resources,Entry,Remote,2023-10-19,Active,83500,51.7,75.8,0.0367,20.6,17.5,No,21.1,Low
+NCS-0181,Marketing,Executive,Narayanganj,2023-05-03,Active,75500,92.9,61.4,0.0646,23.9,34.2,Yes,9.8,Low
+NCS-0182,Human Resources,Executive,Dhaka,2023-03-08,Active,34500,75.1,90.8,0.0455,16.0,28.1,No,12.5,Low
+NCS-0183,Finance,Assistant Manager,Dhaka,2025-07-26,Active,43500,60.2,56.7,0.0847,20.6,20.9,No,22.2,Medium
+NCS-0184,Human Resources,Assistant Manager,Narayanganj,2024-05-08,Active,68000,71.1,80.6,0.0951,16.8,22.9,No,15.5,Low
+NCS-0185,Operations,Assistant Manager,Dhaka,2024-05-13,Active,81500,49.7,59.8,0.0847,20.1,34.7,No,25.2,Medium
+NCS-0186,Supply Chain,Senior Executive,Gazipur,2024-03-10,Active,24000,77.4,85.7,0.01,3.9,20.0,No,8.8,Low
+NCS-0187,Supply Chain,Executive,Narayanganj,2025-07-28,Active,64000,64.9,66.0,0.0359,22.3,12.3,Yes,17.5,Low
+NCS-0188,Finance,Senior Executive,Narayanganj,2025-03-29,Active,25500,77.6,66.6,0.1208,23.1,15.9,No,15.6,Low
+NCS-0189,Technology,Entry,Dhaka,2023-06-01,Active,67000,73.8,87.4,0.0629,16.8,17.6,Yes,13.6,Low
+NCS-0190,Supply Chain,Entry,Narayanganj,2023-01-27,Active,83000,75.3,76.0,0.0879,22.2,32.1,No,14.6,Low
+NCS-0191,Operations,Assistant Manager,Remote,2024-05-10,Active,44000,69.9,62.2,0.0826,20.2,16.7,No,17.6,Low
+NCS-0192,Human Resources,Senior Executive,Remote,2025-08-05,Active,78000,61.2,49.1,0.0303,18.8,13.2,Yes,21.5,Low
+NCS-0193,Finance,Assistant Manager,Gazipur,2025-09-05,Active,77000,68.1,73.7,0.0757,29.7,13.1,Yes,17.9,Low
+NCS-0194,Sales,Senior Executive,Remote,2023-12-05,Active,42500,62.8,73.9,0.083,17.4,0,No,18.1,Low
+NCS-0195,Human Resources,Entry,Gazipur,2025-02-16,Active,83500,74.0,63.6,0.0723,13.2,12.2,No,14.5,Low
+NCS-0196,Supply Chain,Senior Executive,Remote,2023-10-22,Active,36000,74.8,53.5,0.0495,22.5,14.6,No,17.0,Low
+NCS-0197,Technology,Entry,Gazipur,2025-09-10,Active,66000,79.2,75.2,0.1519,10.9,13.7,No,13.5,Low
+NCS-0198,Technology,Assistant Manager,Dhaka,2024-02-02,Active,58000,64.7,61.8,0.1033,23.5,5.9,No,20.6,Low
+NCS-0199,Customer Support,Entry,Gazipur,2024-06-29,Active,52000,65.1,82.0,0.0208,13.5,7.5,Yes,14.9,Low
+NCS-0200,Customer Support,Executive,Dhaka,2026-03-16,Active,28000,87.9,84.3,0.0824,23.7,13.5,No,10.3,Low
+NCS-0201,Human Resources,Entry,Remote,2025-08-17,Active,57500,66.4,78.1,0.0291,29.1,9.8,No,17.0,Low
+NCS-0202,Technology,Senior Executive,Remote,2026-03-12,Active,30000,73.3,77.9,0.0431,22.2,10.7,No,14.0,Low
+NCS-0203,Customer Support,Senior Executive,Remote,2023-04-27,Active,32000,55.8,65.0,0.0493,25.7,40.8,No,21.8,Low
+NCS-0204,Technology,Senior Executive,Gazipur,2024-08-09,Active,28500,50.7,55.5,0.091,12.2,14.7,No,24.7,Medium
+NCS-0205,Technology,Executive,Remote,2023-02-08,Active,43000,80.4,56.8,0.0268,13.2,17.3,No,12.3,Low
+NCS-0206,Finance,Senior Executive,Gazipur,2025-12-14,Active,35500,80.5,66.4,0.0821,26.8,15.8,No,14.0,Low
+NCS-0207,Customer Support,Executive,Dhaka,2025-05-09,Active,77000,75.1,81.6,0.0728,28.4,11.2,Yes,15.2,Low
+NCS-0208,Technology,Entry,Gazipur,2023-10-05,Active,73000,78.3,88.7,0.1032,19.1,21.5,No,13.6,Low
+NCS-0209,Technology,Executive,Narayanganj,2024-05-04,Active,73500,53.3,66.9,0.0995,14.9,6.4,Yes,22.2,Medium
+NCS-0210,Sales,Entry,Gazipur,2023-08-20,Active,47000,76.3,79.1,0.1119,19.6,5.4,No,14.6,Low
+NCS-0211,Marketing,Executive,Dhaka,2025-11-30,Active,35000,73.0,83.6,0.135,20.3,15.3,No,16.5,Low
+NCS-0212,Finance,Senior Executive,Narayanganj,2025-11-23,Active,55500,64.3,87.7,0.0442,28.7,32.7,No,18.2,Low
+NCS-0213,Human Resources,Assistant Manager,Dhaka,2023-12-21,Active,33000,78.3,73.6,0.103,34.5,30.5,Yes,15.9,Low
+NCS-0214,Customer Support,Entry,Remote,2024-06-01,Active,59000,55.3,73.3,0.0117,10.8,19.7,No,17.6,Low
+NCS-0215,Marketing,Senior Executive,Dhaka,2024-03-06,Active,40000,86.1,69.3,0.01,28.7,17.0,No,9.6,Low
+NCS-0216,Finance,Entry,Gazipur,2024-07-01,Active,45000,74.0,85.9,0.1245,19.2,24.8,No,15.7,Low
+NCS-0217,Operations,Assistant Manager,Gazipur,2024-08-14,Active,75500,71.7,65.8,0.0446,3.9,9.9,No,12.7,Low
+NCS-0218,Operations,Entry,Dhaka,2025-11-23,Active,25500,73.4,85.2,0.1124,7.6,23.8,Yes,13.8,Low
+NCS-0219,Technology,Assistant Manager,Gazipur,2024-08-26,Active,38000,71.1,58.0,0.1289,27.5,14.1,No,20.5,Low
+NCS-0220,Operations,Assistant Manager,Narayanganj,2023-10-05,Active,75000,65.3,57.5,0.0676,18.2,22.2,No,19.4,Low
+NCS-0221,Technology,Executive,Remote,2026-02-18,Active,61500,53.8,63.2,0.0788,20.4,19.4,No,23.0,Medium
+NCS-0222,Supply Chain,Senior Executive,Gazipur,2025-09-30,Active,47500,79.8,71.8,0.028,14.8,19.5,No,10.1,Low
+NCS-0223,Human Resources,Senior Executive,Gazipur,2024-08-04,Active,64500,62.2,82.7,0.0143,32.9,20.3,Yes,18.6,Low
+NCS-0224,Human Resources,Assistant Manager,Gazipur,2024-06-29,Active,75500,67.1,79.8,0.0904,21.6,28.6,Yes,17.4,Low
+NCS-0225,Sales,Senior Executive,Narayanganj,2024-12-05,Active,68000,76.7,74.1,0.0306,8.7,21.7,Yes,10.4,Low
+NCS-0226,Operations,Executive,Gazipur,2025-03-14,Active,80500,85.9,78.5,0.0615,24.3,15.5,No,10.4,Low
+NCS-0227,Customer Support,Executive,Remote,2024-01-10,Active,38000,57.8,63.8,0.0661,4.8,13.4,Yes,18.7,Low
+NCS-0228,Supply Chain,Entry,Dhaka,2024-11-22,Active,28500,74.6,84.4,0.0386,15.0,13.8,No,12.3,Low
+NCS-0229,Sales,Senior Executive,Gazipur,2024-08-02,Active,31000,69.1,94.6,0.0239,14.5,24.1,Yes,13.7,Low
+NCS-0230,Supply Chain,Entry,Remote,2025-10-03,Active,63000,72.4,79.8,0.12,48.2,19.3,Yes,20.5,Low
+NCS-0231,Finance,Entry,Narayanganj,2023-05-03,Active,59500,76.4,73.4,0.0476,15.3,13.6,No,12.0,Low
+NCS-0232,Supply Chain,Senior Executive,Gazipur,2026-02-22,Active,60000,60.7,74.3,0.0484,21.1,29.7,Yes,18.4,Low
+NCS-0233,Supply Chain,Executive,Dhaka,2026-01-01,Active,49000,48.4,86.8,0.0807,27.4,30.2,No,24.6,Medium
+NCS-0234,Operations,Entry,Narayanganj,2024-03-01,Active,62500,59.5,87.1,0.0835,14.3,16.1,No,18.8,Low
+NCS-0235,Supply Chain,Assistant Manager,Dhaka,2025-05-07,Active,55500,82.8,77.2,0.0958,27.2,25.9,No,13.0,Low
+NCS-0236,Supply Chain,Senior Executive,Narayanganj,2023-04-11,Active,75500,77.5,68.4,0.0638,17.2,27.6,Yes,12.7,Low
+NCS-0237,Customer Support,Senior Executive,Gazipur,2023-07-04,Active,60000,74.7,72.1,0.0959,8.5,25.3,No,13.0,Low
+NCS-0238,Operations,Assistant Manager,Remote,2024-03-02,Active,24000,75.4,79.0,0.0933,2.3,15.7,No,11.8,Low
+NCS-0239,Supply Chain,Senior Executive,Narayanganj,2024-07-25,Active,50500,65.7,83.1,0.1364,19.5,14.9,Yes,19.0,Low
+NCS-0240,Human Resources,Entry,Remote,2023-08-26,Active,30500,86.5,80.9,0.1297,18.4,6.7,Yes,11.4,Low
+NCS-0241,Marketing,Executive,Gazipur,2025-09-10,Active,73000,64.7,79.5,0.0472,13.3,10.9,No,15.8,Low
+NCS-0242,Sales,Assistant Manager,Gazipur,2025-04-16,Active,43000,58.7,63.3,0.0869,12.0,15.0,No,20.2,Low
+NCS-0243,Customer Support,Executive,Gazipur,2023-05-26,Active,50000,76.1,77.7,0.0778,24.4,10.0,No,14.4,Low
+NCS-0244,Supply Chain,Entry,Dhaka,2025-07-31,Active,83000,60.0,81.1,0.1229,16.0,21.8,Yes,20.1,Low
+NCS-0245,Technology,Entry,Remote,2025-07-03,Active,34000,56.7,43.8,0.129,26.1,31.1,No,28.2,Medium
+NCS-0246,Finance,Executive,Dhaka,2024-11-09,Active,59000,78.4,87.8,0.059,37.7,28.7,No,15.0,Low
+NCS-0247,Finance,Entry,Dhaka,2026-03-19,Active,46500,58.8,88.5,0.0782,17.1,14.4,Yes,19.3,Low
+NCS-0248,Human Resources,Senior Executive,Dhaka,2025-06-13,Active,27500,89.3,95,0.1181,22.2,21.0,Yes,10.6,Low
+NCS-0249,Finance,Executive,Narayanganj,2023-07-24,Active,64000,61.5,71.9,0.0514,19.5,18.8,No,18.0,Low
+NCS-0250,Operations,Entry,Gazipur,2025-11-24,Active,77500,68.3,75.6,0.1205,28.5,16.5,Yes,19.0,Low
+NCS-0251,Human Resources,Senior Executive,Remote,2023-11-19,Active,84000,65.9,66.0,0.1367,13.5,16.1,No,18.9,Low
+NCS-0252,Supply Chain,Senior Executive,Remote,2023-11-01,Active,83000,80.8,72.8,0.06,12.0,42.3,Yes,10.3,Low
+NCS-0253,Marketing,Executive,Narayanganj,2025-08-17,Active,67000,79.4,55.6,0.0953,12.4,19.4,No,14.8,Low
+NCS-0254,Sales,Assistant Manager,Remote,2026-03-06,Active,24000,74.4,91.9,0.0903,17.9,17.0,No,14.4,Low
+NCS-0255,Human Resources,Executive,Remote,2024-07-08,Active,31500,69.4,69.7,0.1127,13.0,25.2,No,16.1,Low
+NCS-0256,Operations,Executive,Remote,2025-11-18,Active,35500,77.3,80.6,0.037,29.1,21.4,Yes,13.4,Low
+NCS-0257,Supply Chain,Assistant Manager,Gazipur,2024-11-09,Active,53500,63.3,71.5,0.0644,9.1,18.3,No,16.1,Low
+NCS-0258,Finance,Executive,Gazipur,2024-07-15,Active,27500,50.3,85.5,0.0436,23.5,29.6,No,22.2,Medium
+NCS-0259,Customer Support,Executive,Remote,2026-04-08,Active,30000,42.7,61.0,0.1242,11.1,24.2,Yes,27.3,Medium
+NCS-0260,Technology,Senior Executive,Narayanganj,2023-12-12,Active,39000,53.3,83.8,0.01,37.5,8.5,No,22.3,Medium
+NCS-0261,Marketing,Executive,Narayanganj,2024-12-20,Active,67000,57.0,75.9,0.0375,9.6,27.7,No,17.6,Low
+NCS-0262,Human Resources,Entry,Gazipur,2025-02-05,Active,45500,87.9,69.8,0.0359,12.0,13.2,No,7.1,Low
+NCS-0263,Technology,Entry,Remote,2024-05-20,Active,38500,48.4,80.7,0.0879,4.2,25.0,Yes,21.3,Low
+NCS-0264,Operations,Senior Executive,Narayanganj,2023-11-16,Active,24500,70.8,62.1,0.0641,20.1,14.0,No,16.7,Low
+NCS-0265,Technology,Entry,Remote,2025-09-05,Active,66500,56.5,65.9,0.1054,14.0,21.1,Yes,21.3,Low
+NCS-0266,Supply Chain,Entry,Remote,2024-12-13,Active,39500,72.6,73.3,0.0432,23.1,26.3,No,14.4,Low
+NCS-0267,Operations,Entry,Dhaka,2023-09-26,Active,50500,57.5,69.0,0.0689,6.7,23.2,No,18.2,Low
+NCS-0268,Customer Support,Senior Executive,Remote,2025-04-19,Active,50000,69.8,85.6,0.0447,25.9,26.2,No,15.8,Low
+NCS-0269,Operations,Executive,Gazipur,2023-02-03,Active,39500,68.3,52.8,0.0615,18.7,26.9,Yes,19.2,Low
+NCS-0270,Customer Support,Entry,Narayanganj,2025-02-08,Active,35000,65.2,68.2,0.0821,18.6,12.8,Yes,17.8,Low
+NCS-0271,Customer Support,Senior Executive,Remote,2024-10-25,Active,77500,71.0,67.5,0.0876,11.3,30.7,No,15.0,Low
+NCS-0272,Marketing,Executive,Remote,2025-12-26,Active,64000,70.5,94.7,0.0457,12.5,22.3,No,13.6,Low
+NCS-0273,Operations,Entry,Narayanganj,2025-03-24,Active,71500,72.6,69.6,0.0377,22.4,35.4,Yes,14.2,Low
+NCS-0274,Sales,Assistant Manager,Gazipur,2023-07-07,Active,38500,78.4,55.7,0.0398,20.8,24.8,No,14.8,Low
+NCS-0275,Finance,Senior Executive,Remote,2023-10-11,Active,31000,73.7,74.5,0.062,16.8,0,Yes,13.6,Low
+NCS-0276,Technology,Entry,Dhaka,2026-04-14,Active,25500,65.2,70.9,0.106,20.3,7.5,No,18.4,Low
+NCS-0277,Customer Support,Senior Executive,Gazipur,2023-02-06,Active,84500,80.4,71.6,0.1054,17.1,23.2,No,12.6,Low
+NCS-0278,Customer Support,Senior Executive,Remote,2024-02-24,Active,76000,81.8,71.9,0.1399,18.2,20.1,Yes,13.3,Low
+NCS-0279,Human Resources,Assistant Manager,Remote,2023-02-21,Active,49500,75.0,83.8,0.1393,31.6,19.0,No,17.7,Low
+NCS-0280,Technology,Assistant Manager,Dhaka,2025-02-17,Active,76500,69.8,79.6,0.0819,18.6,8.0,No,15.8,Low

@@ -1,0 +1,90 @@
+[
+  {
+    "path": ".github/workflows/publish-unified-project.yml",
+    "size_bytes": 1514
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 4797
+  },
+  {
+    "path": "VERSION",
+    "size_bytes": 7
+  },
+  {
+    "path": "analysis/notebooks/01_hr_diagnostic.ipynb",
+    "size_bytes": 626
+  },
+  {
+    "path": "analysis/notebooks/02_intervention_impact.ipynb",
+    "size_bytes": 671
+  },
+  {
+    "path": "analysis/sql/hr_strategy_queries.sql",
+    "size_bytes": 198
+  },
+  {
+    "path": "data/csv/data_dictionary.csv",
+    "size_bytes": 3727
+  },
+  {
+    "path": "data/csv/department_monthly_kpis.csv",
+    "size_bytes": 12895
+  },
+  {
+    "path": "data/csv/department_scorecard.csv",
+    "size_bytes": 924
+  },
+  {
+    "path": "data/csv/employees.csv",
+    "size_bytes": 29756
+  },
+  {
+    "path": "data/csv/intervention_impact.csv",
+    "size_bytes": 1365
+  },
+  {
+    "path": "data/csv/learning.csv",
+    "size_bytes": 25204
+  },
+  {
+    "path": "data/csv/monthly_hr_kpis.csv",
+    "size_bytes": 2720
+  },
+  {
+    "path": "data/csv/recruitment.csv",
+    "size_bytes": 8619
+  },
+  {
+    "path": "docs/CASE_STUDY.md",
+    "size_bytes": 301
+  },
+  {
+    "path": "docs/ETHICS_AND_LIMITATIONS.md",
+    "size_bytes": 198
+  },
+  {
+    "path": "docs/PROJECT_USAGE_GUIDE.md",
+    "size_bytes": 267
+  },
+  {
+    "path": "docs/PROMOTION_PORTFOLIO.md",
+    "size_bytes": 267
+  },
+  {
+    "path": "metadata/dataset-metadata.json",
+    "size_bytes": 410
+  },
+  {
+    "path": "metadata/project_metadata.json",
+    "size_bytes": 375
+  },
+  {
+    "path": "requirements.txt",
+    "size_bytes": 42
+  },
+  {
+    "path": "scripts/build_project.py",
+    "size_bytes": 22113
+  }
+]

@@ -135,3 +135,10 @@ A ready inner ZIP is also included:
 `dashboards/power-bi/power-bi-dashboard-images.zip`
 
 This helps users preview the report pages and rebuild them more easily.
+
+
+## 📥 Release Downloads
+
+- [Project Version v0.1.0](releases/bd-hr-analytics-v0.1.0.zip)
+- [Unified ZIP v0.3.0](releases/bd-hr-analytics-unified-v0.3.0.zip)
+- [Latest unified project ZIP](bd-hr-analytics-unified-project.zip)

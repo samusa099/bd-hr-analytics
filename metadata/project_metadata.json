@@ -1,0 +1,15 @@
+{
+  "project_name": "Bangladesh SME HR Strategy Transformation",
+  "repository": "samusa099/bd-hr-analytics",
+  "version": "v0.1.0",
+  "portfolio_owner": "Musa",
+  "case_type": "Synthetic portfolio simulation",
+  "tools": [
+    "Excel",
+    "Power BI",
+    "Looker Studio",
+    "Python",
+    "SQL"
+  ],
+  "data_classification": "Synthetic; no personal or confidential data"
+}

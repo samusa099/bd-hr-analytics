@@ -1,0 +1,63 @@
+﻿file,field,data_type,description
+employees.csv,employee_id,synthetic,Employee Id
+employees.csv,department,synthetic,Department
+employees.csv,designation_level,synthetic,Designation Level
+employees.csv,location,synthetic,Location
+employees.csv,hire_date,synthetic,Hire Date
+employees.csv,employment_status,synthetic,Employment Status
+employees.csv,monthly_salary_bdt,synthetic,Monthly Salary Bdt
+employees.csv,engagement_score,synthetic,Engagement Score
+employees.csv,performance_score,synthetic,Performance Score
+employees.csv,absence_rate,synthetic,Absence Rate
+employees.csv,monthly_overtime_hours,synthetic,Monthly Overtime Hours
+employees.csv,training_hours_last_12m,synthetic,Training Hours Last 12M
+employees.csv,critical_role,synthetic,Critical Role
+employees.csv,people_risk_score,synthetic,People Risk Score
+employees.csv,risk_band,synthetic,Risk Band
+monthly_hr_kpis.csv,month,synthetic,Month
+monthly_hr_kpis.csv,headcount,synthetic,Headcount
+monthly_hr_kpis.csv,hires,synthetic,Hires
+monthly_hr_kpis.csv,exits,synthetic,Exits
+monthly_hr_kpis.csv,annualized_turnover_rate,synthetic,Annualized Turnover Rate
+monthly_hr_kpis.csv,absenteeism_rate,synthetic,Absenteeism Rate
+monthly_hr_kpis.csv,overtime_cost_ratio,synthetic,Overtime Cost Ratio
+monthly_hr_kpis.csv,avg_engagement_score,synthetic,Avg Engagement Score
+monthly_hr_kpis.csv,avg_performance_score,synthetic,Avg Performance Score
+monthly_hr_kpis.csv,avg_time_to_fill_days,synthetic,Avg Time To Fill Days
+monthly_hr_kpis.csv,training_completion_rate,synthetic,Training Completion Rate
+monthly_hr_kpis.csv,compliance_documentation_rate,synthetic,Compliance Documentation Rate
+monthly_hr_kpis.csv,manager_effectiveness_score,synthetic,Manager Effectiveness Score
+monthly_hr_kpis.csv,early_attrition_90d_rate,synthetic,Early Attrition 90D Rate
+monthly_hr_kpis.csv,phase,synthetic,Phase
+department_scorecard.csv,department,synthetic,Department
+department_scorecard.csv,headcount,synthetic,Headcount
+department_scorecard.csv,turnover_rate,synthetic,Turnover Rate
+department_scorecard.csv,absenteeism_rate,synthetic,Absenteeism Rate
+department_scorecard.csv,engagement_score,synthetic,Engagement Score
+department_scorecard.csv,performance_score,synthetic,Performance Score
+department_scorecard.csv,overtime_hours,synthetic,Overtime Hours
+department_scorecard.csv,vacancy_days,synthetic,Vacancy Days
+department_scorecard.csv,people_risk_index,synthetic,People Risk Index
+department_scorecard.csv,risk_band,synthetic,Risk Band
+department_scorecard.csv,priority_action,synthetic,Priority Action
+recruitment.csv,requisition_id,synthetic,Requisition Id
+recruitment.csv,department,synthetic,Department
+recruitment.csv,source,synthetic,Source
+recruitment.csv,applicants,synthetic,Applicants
+recruitment.csv,interviews,synthetic,Interviews
+recruitment.csv,offers,synthetic,Offers
+recruitment.csv,joins,synthetic,Joins
+recruitment.csv,time_to_fill_days,synthetic,Time To Fill Days
+recruitment.csv,cost_per_hire_bdt,synthetic,Cost Per Hire Bdt
+recruitment.csv,quality_of_hire_score,synthetic,Quality Of Hire Score
+recruitment.csv,retention_90d_rate,synthetic,Retention 90D Rate
+recruitment.csv,phase,synthetic,Phase
+learning.csv,learning_record_id,synthetic,Learning Record Id
+learning.csv,employee_id,synthetic,Employee Id
+learning.csv,department,synthetic,Department
+learning.csv,program,synthetic,Program
+learning.csv,hours,synthetic,Hours
+learning.csv,completion_status,synthetic,Completion Status
+learning.csv,pre_assessment_score,synthetic,Pre Assessment Score
+learning.csv,post_assessment_score,synthetic,Post Assessment Score
+learning.csv,behavior_application_score,synthetic,Behavior Application Score

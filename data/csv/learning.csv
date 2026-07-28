@@ -1,0 +1,401 @@
+﻿learning_record_id,employee_id,department,program,hours,completion_status,pre_assessment_score,post_assessment_score,behavior_application_score
+LND-0001,NCS-0118,Supply Chain,Manager Essentials,4,Yes,60,77,74
+LND-0002,NCS-0227,Sales,KPI and Feedback,8,Yes,52,73,76
+LND-0003,NCS-0030,Technology,AI for HR,8,No,66,80,61
+LND-0004,NCS-0070,Supply Chain,HR Compliance,12,Yes,58,74,60
+LND-0005,NCS-0205,Finance,KPI and Feedback,8,Yes,50,64,66
+LND-0006,NCS-0031,Operations,HR Compliance,4,Yes,75,97,72
+LND-0007,NCS-0265,Technology,HR Compliance,2,Yes,51,64,68
+LND-0008,NCS-0199,Operations,HR Compliance,2,Yes,54,69,72
+LND-0009,NCS-0079,Supply Chain,Structured Interviewing,12,Yes,48,61,74
+LND-0010,NCS-0246,Customer Support,Structured Interviewing,12,Yes,67,91,88
+LND-0011,NCS-0209,Supply Chain,AI for HR,6,No,75,87,60
+LND-0012,NCS-0231,Finance,KPI and Feedback,6,Yes,59,76,63
+LND-0013,NCS-0190,Human Resources,Manager Essentials,6,No,55,79,65
+LND-0014,NCS-0141,Customer Support,Manager Essentials,4,Yes,63,77,81
+LND-0015,NCS-0265,Operations,Manager Essentials,2,Yes,50,62,57
+LND-0016,NCS-0207,Marketing,HR Compliance,8,Yes,51,74,59
+LND-0017,NCS-0167,Operations,AI for HR,2,No,51,63,76
+LND-0018,NCS-0029,Human Resources,Structured Interviewing,4,Yes,71,81,55
+LND-0019,NCS-0257,Technology,HR Compliance,6,Yes,74,97,90
+LND-0020,NCS-0174,Human Resources,Structured Interviewing,6,Yes,45,65,79
+LND-0021,NCS-0098,Finance,AI for HR,2,Yes,55,66,70
+LND-0022,NCS-0086,Supply Chain,Manager Essentials,12,Yes,55,78,86
+LND-0023,NCS-0271,Finance,Manager Essentials,2,Yes,51,64,70
+LND-0024,NCS-0061,Operations,Structured Interviewing,2,Yes,64,84,84
+LND-0025,NCS-0198,Operations,KPI and Feedback,6,No,61,81,57
+LND-0026,NCS-0263,Operations,HR Compliance,12,No,67,90,79
+LND-0027,NCS-0242,Customer Support,AI for HR,8,Yes,48,72,62
+LND-0028,NCS-0124,Finance,KPI and Feedback,6,Yes,53,69,57
+LND-0029,NCS-0136,Operations,Structured Interviewing,2,Yes,74,82,57
+LND-0030,NCS-0022,Sales,Structured Interviewing,4,Yes,70,80,80
+LND-0031,NCS-0202,Supply Chain,HR Compliance,12,Yes,54,65,64
+LND-0032,NCS-0009,Human Resources,AI for HR,4,Yes,57,68,82
+LND-0033,NCS-0059,Sales,HR Compliance,6,Yes,67,88,77
+LND-0034,NCS-0210,Marketing,AI for HR,12,Yes,46,60,56
+LND-0035,NCS-0148,Operations,HR Compliance,2,Yes,52,70,75
+LND-0036,NCS-0143,Supply Chain,Manager Essentials,8,Yes,65,86,91
+LND-0037,NCS-0182,Sales,Structured Interviewing,12,Yes,70,79,60
+LND-0038,NCS-0142,Finance,Manager Essentials,2,Yes,61,75,55
+LND-0039,NCS-0109,Supply Chain,AI for HR,12,Yes,59,83,92
+LND-0040,NCS-0269,Operations,KPI and Feedback,8,Yes,71,86,76
+LND-0041,NCS-0017,Marketing,Structured Interviewing,2,Yes,55,69,86
+LND-0042,NCS-0090,Marketing,KPI and Feedback,2,Yes,58,71,66
+LND-0043,NCS-0067,Technology,AI for HR,12,Yes,65,75,84
+LND-0044,NCS-0220,Operations,KPI and Feedback,2,Yes,52,76,66
+LND-0045,NCS-0015,Human Resources,HR Compliance,2,Yes,69,81,71
+LND-0046,NCS-0247,Sales,Structured Interviewing,12,Yes,72,86,67
+LND-0047,NCS-0038,Customer Support,Manager Essentials,6,Yes,47,60,64
+LND-0048,NCS-0179,Sales,AI for HR,2,Yes,71,91,87
+LND-0049,NCS-0252,Finance,KPI and Feedback,12,No,75,84,85
+LND-0050,NCS-0091,Finance,HR Compliance,12,Yes,59,79,63
+LND-0051,NCS-0257,Technology,HR Compliance,6,Yes,46,57,63
+LND-0052,NCS-0201,Human Resources,Manager Essentials,4,No,47,65,59
+LND-0053,NCS-0065,Human Resources,HR Compliance,4,Yes,74,88,73
+LND-0054,NCS-0012,Marketing,Structured Interviewing,4,Yes,48,68,91
+LND-0055,NCS-0054,Supply Chain,KPI and Feedback,2,Yes,61,83,73
+LND-0056,NCS-0138,Sales,Manager Essentials,12,Yes,60,79,83
+LND-0057,NCS-0171,Technology,Structured Interviewing,12,Yes,56,68,64
+LND-0058,NCS-0124,Supply Chain,Structured Interviewing,6,Yes,52,70,89
+LND-0059,NCS-0104,Customer Support,AI for HR,8,Yes,66,88,64
+LND-0060,NCS-0134,Customer Support,HR Compliance,12,Yes,65,78,66
+LND-0061,NCS-0096,Supply Chain,Structured Interviewing,6,No,56,69,82
+LND-0062,NCS-0045,Human Resources,HR Compliance,4,Yes,45,59,63
+LND-0063,NCS-0058,Finance,Manager Essentials,2,Yes,64,75,77
+LND-0064,NCS-0151,Technology,HR Compliance,8,Yes,56,77,88
+LND-0065,NCS-0060,Customer Support,AI for HR,6,Yes,75,90,66
+LND-0066,NCS-0178,Human Resources,KPI and Feedback,4,Yes,74,84,55
+LND-0067,NCS-0112,Human Resources,Manager Essentials,4,Yes,48,65,85
+LND-0068,NCS-0083,Supply Chain,KPI and Feedback,2,Yes,47,55,64
+LND-0069,NCS-0049,Finance,Manager Essentials,8,Yes,61,83,66
+LND-0070,NCS-0157,Marketing,Structured Interviewing,2,No,45,54,70
+LND-0071,NCS-0240,Sales,Structured Interviewing,8,Yes,63,79,71
+LND-0072,NCS-0014,Customer Support,AI for HR,8,Yes,72,89,87
+LND-0073,NCS-0151,Marketing,HR Compliance,6,Yes,70,88,73
+LND-0074,NCS-0048,Supply Chain,Manager Essentials,6,Yes,63,73,90
+LND-0075,NCS-0136,Sales,Structured Interviewing,2,Yes,75,98,90
+LND-0076,NCS-0160,Human Resources,Manager Essentials,8,No,48,71,83
+LND-0077,NCS-0226,Technology,HR Compliance,8,Yes,69,78,61
+LND-0078,NCS-0144,Operations,AI for HR,6,Yes,59,80,70
+LND-0079,NCS-0086,Sales,HR Compliance,8,Yes,46,70,77
+LND-0080,NCS-0048,Operations,Structured Interviewing,12,Yes,70,90,88
+LND-0081,NCS-0065,Human Resources,KPI and Feedback,4,Yes,58,77,79
+LND-0082,NCS-0103,Operations,Manager Essentials,2,No,53,64,61
+LND-0083,NCS-0067,Sales,Manager Essentials,6,Yes,46,69,78
+LND-0084,NCS-0082,Technology,HR Compliance,8,Yes,70,90,74
+LND-0085,NCS-0271,Human Resources,KPI and Feedback,4,Yes,49,70,80
+LND-0086,NCS-0035,Technology,AI for HR,2,Yes,48,60,60
+LND-0087,NCS-0222,Human Resources,Structured Interviewing,6,Yes,56,72,85
+LND-0088,NCS-0080,Technology,Manager Essentials,12,No,64,72,87
+LND-0089,NCS-0255,Customer Support,Manager Essentials,8,Yes,57,69,71
+LND-0090,NCS-0117,Operations,KPI and Feedback,8,Yes,57,66,82
+LND-0091,NCS-0234,Technology,HR Compliance,8,Yes,56,79,62
+LND-0092,NCS-0097,Customer Support,KPI and Feedback,8,No,60,68,90
+LND-0093,NCS-0173,Customer Support,KPI and Feedback,12,Yes,47,66,86
+LND-0094,NCS-0086,Technology,Manager Essentials,12,Yes,71,85,92
+LND-0095,NCS-0191,Technology,HR Compliance,6,Yes,68,78,81
+LND-0096,NCS-0125,Sales,Structured Interviewing,8,Yes,74,83,88
+LND-0097,NCS-0037,Operations,KPI and Feedback,2,Yes,62,72,73
+LND-0098,NCS-0101,Supply Chain,AI for HR,8,Yes,51,71,69
+LND-0099,NCS-0131,Operations,Structured Interviewing,6,Yes,53,62,80
+LND-0100,NCS-0055,Marketing,AI for HR,4,Yes,58,77,79
+LND-0101,NCS-0244,Technology,Manager Essentials,6,Yes,50,67,78
+LND-0102,NCS-0247,Marketing,KPI and Feedback,2,Yes,60,84,71
+LND-0103,NCS-0076,Operations,Manager Essentials,4,Yes,74,97,75
+LND-0104,NCS-0252,Marketing,KPI and Feedback,6,Yes,73,90,77
+LND-0105,NCS-0233,Human Resources,AI for HR,6,Yes,66,74,70
+LND-0106,NCS-0153,Marketing,KPI and Feedback,6,No,53,64,84
+LND-0107,NCS-0137,Customer Support,Manager Essentials,8,Yes,53,62,79
+LND-0108,NCS-0263,Supply Chain,AI for HR,2,Yes,45,66,88
+LND-0109,NCS-0192,Finance,AI for HR,12,Yes,74,87,64
+LND-0110,NCS-0085,Finance,Manager Essentials,12,Yes,69,79,81
+LND-0111,NCS-0098,Finance,HR Compliance,4,Yes,73,93,83
+LND-0112,NCS-0025,Technology,AI for HR,6,No,58,72,80
+LND-0113,NCS-0097,Operations,AI for HR,4,Yes,56,71,72
+LND-0114,NCS-0028,Human Resources,AI for HR,12,Yes,54,67,56
+LND-0115,NCS-0154,Sales,Manager Essentials,8,Yes,52,74,86
+LND-0116,NCS-0087,Finance,HR Compliance,6,No,73,95,66
+LND-0117,NCS-0228,Technology,HR Compliance,12,Yes,50,60,60
+LND-0118,NCS-0202,Marketing,HR Compliance,12,Yes,50,60,68
+LND-0119,NCS-0181,Operations,KPI and Feedback,4,No,58,72,55
+LND-0120,NCS-0078,Technology,HR Compliance,2,Yes,51,71,72
+LND-0121,NCS-0059,Human Resources,Manager Essentials,12,Yes,46,63,83
+LND-0122,NCS-0091,Operations,Structured Interviewing,2,Yes,66,82,69
+LND-0123,NCS-0182,Operations,AI for HR,4,Yes,47,60,55
+LND-0124,NCS-0156,Technology,Manager Essentials,6,Yes,67,86,61
+LND-0125,NCS-0143,Finance,AI for HR,2,Yes,73,91,57
+LND-0126,NCS-0231,Human Resources,KPI and Feedback,12,Yes,59,70,78
+LND-0127,NCS-0247,Technology,Manager Essentials,12,No,66,76,74
+LND-0128,NCS-0155,Customer Support,KPI and Feedback,6,Yes,64,72,87
+LND-0129,NCS-0273,Technology,KPI and Feedback,8,Yes,69,82,78
+LND-0130,NCS-0148,Technology,Manager Essentials,6,Yes,57,71,83
+LND-0131,NCS-0278,Supply Chain,Structured Interviewing,2,Yes,72,95,86
+LND-0132,NCS-0177,Human Resources,Structured Interviewing,6,Yes,55,76,59
+LND-0133,NCS-0227,Marketing,Manager Essentials,4,Yes,70,85,87
+LND-0134,NCS-0261,Supply Chain,HR Compliance,2,Yes,74,84,89
+LND-0135,NCS-0218,Marketing,Structured Interviewing,8,Yes,72,82,73
+LND-0136,NCS-0078,Human Resources,AI for HR,12,Yes,57,80,90
+LND-0137,NCS-0243,Supply Chain,HR Compliance,2,No,54,67,73
+LND-0138,NCS-0045,Customer Support,AI for HR,2,Yes,55,69,78
+LND-0139,NCS-0243,Human Resources,KPI and Feedback,2,Yes,64,73,79
+LND-0140,NCS-0194,Human Resources,KPI and Feedback,6,Yes,74,98,92
+LND-0141,NCS-0193,Sales,HR Compliance,8,Yes,48,65,77
+LND-0142,NCS-0043,Sales,HR Compliance,8,No,72,87,84
+LND-0143,NCS-0069,Technology,AI for HR,6,Yes,53,61,59
+LND-0144,NCS-0242,Human Resources,AI for HR,2,No,47,67,59
+LND-0145,NCS-0154,Human Resources,AI for HR,6,No,53,76,61
+LND-0146,NCS-0065,Sales,Structured Interviewing,12,Yes,70,90,90
+LND-0147,NCS-0207,Supply Chain,HR Compliance,8,Yes,71,92,83
+LND-0148,NCS-0208,Human Resources,Structured Interviewing,4,Yes,70,79,83
+LND-0149,NCS-0266,Finance,AI for HR,8,Yes,53,63,76
+LND-0150,NCS-0098,Technology,Manager Essentials,4,Yes,63,78,70
+LND-0151,NCS-0208,Operations,AI for HR,6,Yes,75,97,63
+LND-0152,NCS-0251,Marketing,AI for HR,8,Yes,69,85,82
+LND-0153,NCS-0029,Customer Support,AI for HR,8,Yes,51,73,76
+LND-0154,NCS-0183,Operations,Structured Interviewing,4,Yes,75,94,67
+LND-0155,NCS-0190,Human Resources,AI for HR,8,Yes,59,72,91
+LND-0156,NCS-0189,Customer Support,HR Compliance,8,Yes,49,68,90
+LND-0157,NCS-0073,Customer Support,HR Compliance,12,Yes,51,65,79
+LND-0158,NCS-0033,Supply Chain,HR Compliance,2,Yes,68,83,70
+LND-0159,NCS-0168,Operations,Manager Essentials,6,Yes,47,63,67
+LND-0160,NCS-0179,Finance,Structured Interviewing,12,Yes,55,65,84
+LND-0161,NCS-0046,Sales,Structured Interviewing,12,No,55,63,90
+LND-0162,NCS-0051,Operations,AI for HR,6,Yes,48,71,67
+LND-0163,NCS-0060,Marketing,AI for HR,8,Yes,69,80,65
+LND-0164,NCS-0153,Operations,AI for HR,2,Yes,66,81,59
+LND-0165,NCS-0227,Customer Support,AI for HR,6,No,56,75,69
+LND-0166,NCS-0147,Human Resources,Manager Essentials,2,Yes,50,61,91
+LND-0167,NCS-0012,Marketing,Structured Interviewing,2,Yes,49,71,74
+LND-0168,NCS-0227,Marketing,KPI and Feedback,12,Yes,48,69,73
+LND-0169,NCS-0116,Technology,HR Compliance,8,Yes,60,75,92
+LND-0170,NCS-0207,Technology,Structured Interviewing,8,Yes,53,64,84
+LND-0171,NCS-0188,Marketing,HR Compliance,2,Yes,50,65,83
+LND-0172,NCS-0069,Finance,AI for HR,8,Yes,67,89,81
+LND-0173,NCS-0024,Customer Support,Structured Interviewing,4,Yes,53,65,77
+LND-0174,NCS-0253,Finance,Structured Interviewing,4,Yes,67,76,56
+LND-0175,NCS-0011,Customer Support,AI for HR,12,Yes,72,87,78
+LND-0176,NCS-0248,Sales,HR Compliance,8,Yes,49,58,75
+LND-0177,NCS-0032,Finance,Manager Essentials,6,No,67,91,72
+LND-0178,NCS-0099,Human Resources,Manager Essentials,2,Yes,73,87,90
+LND-0179,NCS-0148,Human Resources,KPI and Feedback,6,No,64,81,75
+LND-0180,NCS-0276,Operations,Manager Essentials,2,Yes,53,65,58
+LND-0181,NCS-0196,Operations,HR Compliance,4,Yes,60,71,75
+LND-0182,NCS-0068,Operations,HR Compliance,4,Yes,56,72,87
+LND-0183,NCS-0175,Marketing,HR Compliance,2,Yes,74,97,90
+LND-0184,NCS-0190,Sales,KPI and Feedback,12,Yes,52,68,66
+LND-0185,NCS-0236,Sales,Manager Essentials,4,Yes,55,64,77
+LND-0186,NCS-0006,Finance,Structured Interviewing,12,Yes,62,70,89
+LND-0187,NCS-0152,Technology,HR Compliance,8,Yes,61,77,86
+LND-0188,NCS-0211,Finance,AI for HR,12,Yes,62,70,56
+LND-0189,NCS-0115,Finance,HR Compliance,8,Yes,50,58,84
+LND-0190,NCS-0226,Operations,Manager Essentials,12,Yes,63,73,83
+LND-0191,NCS-0181,Customer Support,HR Compliance,4,Yes,65,80,55
+LND-0192,NCS-0102,Operations,Structured Interviewing,6,Yes,64,80,63
+LND-0193,NCS-0020,Supply Chain,HR Compliance,8,Yes,68,82,82
+LND-0194,NCS-0178,Customer Support,Manager Essentials,2,No,64,87,60
+LND-0195,NCS-0152,Sales,AI for HR,8,No,57,73,55
+LND-0196,NCS-0070,Supply Chain,Manager Essentials,2,Yes,58,81,62
+LND-0197,NCS-0277,Customer Support,KPI and Feedback,6,Yes,72,89,61
+LND-0198,NCS-0142,Technology,Structured Interviewing,2,Yes,49,69,60
+LND-0199,NCS-0265,Supply Chain,HR Compliance,12,Yes,50,64,62
+LND-0200,NCS-0141,Customer Support,Manager Essentials,12,Yes,70,78,65
+LND-0201,NCS-0073,Marketing,KPI and Feedback,6,Yes,55,69,79
+LND-0202,NCS-0111,Human Resources,HR Compliance,4,Yes,63,72,70
+LND-0203,NCS-0181,Marketing,Manager Essentials,4,Yes,54,73,72
+LND-0204,NCS-0159,Supply Chain,KPI and Feedback,4,Yes,70,85,74
+LND-0205,NCS-0032,Sales,KPI and Feedback,2,Yes,57,75,85
+LND-0206,NCS-0193,Human Resources,AI for HR,12,Yes,70,88,85
+LND-0207,NCS-0148,Operations,KPI and Feedback,8,Yes,60,69,88
+LND-0208,NCS-0101,Customer Support,Manager Essentials,12,Yes,62,82,69
+LND-0209,NCS-0128,Finance,KPI and Feedback,2,Yes,57,72,71
+LND-0210,NCS-0145,Finance,AI for HR,2,No,64,73,72
+LND-0211,NCS-0098,Customer Support,AI for HR,4,No,64,88,82
+LND-0212,NCS-0278,Finance,Structured Interviewing,12,Yes,61,72,74
+LND-0213,NCS-0001,Finance,Manager Essentials,4,Yes,61,74,74
+LND-0214,NCS-0179,Operations,KPI and Feedback,2,Yes,64,73,79
+LND-0215,NCS-0245,Technology,KPI and Feedback,2,Yes,60,68,59
+LND-0216,NCS-0193,Finance,Manager Essentials,12,Yes,53,73,78
+LND-0217,NCS-0246,Supply Chain,AI for HR,6,Yes,45,64,58
+LND-0218,NCS-0243,Operations,AI for HR,12,No,66,80,62
+LND-0219,NCS-0042,Customer Support,Structured Interviewing,6,Yes,73,83,73
+LND-0220,NCS-0257,Supply Chain,HR Compliance,4,Yes,45,61,84
+LND-0221,NCS-0219,Technology,AI for HR,12,Yes,67,82,73
+LND-0222,NCS-0117,Human Resources,Manager Essentials,6,Yes,68,87,67
+LND-0223,NCS-0019,Sales,AI for HR,4,No,71,95,86
+LND-0224,NCS-0108,Technology,Manager Essentials,2,No,64,85,78
+LND-0225,NCS-0211,Supply Chain,Structured Interviewing,2,Yes,63,80,77
+LND-0226,NCS-0001,Supply Chain,AI for HR,4,Yes,67,87,92
+LND-0227,NCS-0180,Marketing,HR Compliance,2,Yes,66,83,67
+LND-0228,NCS-0131,Operations,HR Compliance,4,Yes,59,74,86
+LND-0229,NCS-0129,Technology,Structured Interviewing,4,Yes,46,64,80
+LND-0230,NCS-0229,Marketing,HR Compliance,6,No,75,87,60
+LND-0231,NCS-0260,Human Resources,KPI and Feedback,4,Yes,71,80,68
+LND-0232,NCS-0093,Operations,Manager Essentials,6,Yes,63,85,59
+LND-0233,NCS-0184,Operations,Structured Interviewing,6,Yes,45,64,55
+LND-0234,NCS-0085,Finance,KPI and Feedback,6,Yes,65,79,60
+LND-0235,NCS-0182,Sales,Structured Interviewing,12,Yes,49,57,88
+LND-0236,NCS-0038,Human Resources,KPI and Feedback,2,No,63,76,66
+LND-0237,NCS-0038,Marketing,Structured Interviewing,4,Yes,75,84,73
+LND-0238,NCS-0005,Finance,AI for HR,6,No,63,84,80
+LND-0239,NCS-0190,Marketing,Manager Essentials,4,Yes,49,63,78
+LND-0240,NCS-0202,Finance,HR Compliance,12,Yes,67,84,56
+LND-0241,NCS-0169,Supply Chain,AI for HR,2,Yes,46,68,55
+LND-0242,NCS-0011,Technology,KPI and Feedback,12,Yes,51,73,57
+LND-0243,NCS-0022,Finance,Structured Interviewing,6,No,62,74,64
+LND-0244,NCS-0274,Sales,HR Compliance,2,No,53,66,87
+LND-0245,NCS-0015,Customer Support,Manager Essentials,8,No,54,66,83
+LND-0246,NCS-0267,Customer Support,HR Compliance,8,Yes,58,77,68
+LND-0247,NCS-0177,Marketing,Structured Interviewing,12,Yes,60,83,72
+LND-0248,NCS-0056,Sales,Manager Essentials,12,Yes,53,63,77
+LND-0249,NCS-0085,Technology,KPI and Feedback,8,No,55,73,89
+LND-0250,NCS-0135,Finance,Structured Interviewing,12,Yes,59,79,63
+LND-0251,NCS-0081,Customer Support,KPI and Feedback,2,Yes,54,68,63
+LND-0252,NCS-0212,Marketing,HR Compliance,6,No,68,78,59
+LND-0253,NCS-0060,Sales,Manager Essentials,2,Yes,70,89,55
+LND-0254,NCS-0194,Marketing,Manager Essentials,2,Yes,49,73,84
+LND-0255,NCS-0032,Technology,HR Compliance,6,Yes,51,71,72
+LND-0256,NCS-0002,Customer Support,HR Compliance,2,Yes,50,63,85
+LND-0257,NCS-0262,Supply Chain,Structured Interviewing,2,Yes,60,73,80
+LND-0258,NCS-0172,Operations,KPI and Feedback,2,Yes,57,74,62
+LND-0259,NCS-0076,Operations,Structured Interviewing,2,Yes,65,87,85
+LND-0260,NCS-0022,Marketing,KPI and Feedback,2,Yes,52,75,88
+LND-0261,NCS-0030,Finance,Structured Interviewing,4,Yes,65,88,66
+LND-0262,NCS-0259,Customer Support,HR Compliance,4,Yes,72,96,76
+LND-0263,NCS-0096,Technology,Structured Interviewing,6,Yes,54,67,85
+LND-0264,NCS-0101,Sales,KPI and Feedback,8,Yes,64,73,62
+LND-0265,NCS-0120,Supply Chain,KPI and Feedback,12,Yes,62,79,78
+LND-0266,NCS-0043,Marketing,HR Compliance,12,No,58,75,61
+LND-0267,NCS-0012,Finance,HR Compliance,6,Yes,62,75,90
+LND-0268,NCS-0155,Marketing,Manager Essentials,6,No,58,73,58
+LND-0269,NCS-0094,Technology,AI for HR,12,Yes,47,61,91
+LND-0270,NCS-0150,Marketing,Structured Interviewing,2,No,50,73,60
+LND-0271,NCS-0087,Supply Chain,Manager Essentials,2,Yes,66,84,69
+LND-0272,NCS-0151,Supply Chain,Structured Interviewing,2,Yes,57,69,85
+LND-0273,NCS-0209,Finance,HR Compliance,12,Yes,59,83,87
+LND-0274,NCS-0066,Human Resources,HR Compliance,4,Yes,57,78,66
+LND-0275,NCS-0258,Sales,KPI and Feedback,4,Yes,54,78,68
+LND-0276,NCS-0261,Technology,HR Compliance,8,Yes,45,54,79
+LND-0277,NCS-0210,Human Resources,Structured Interviewing,12,Yes,65,82,65
+LND-0278,NCS-0241,Sales,HR Compliance,6,Yes,46,68,92
+LND-0279,NCS-0166,Sales,Structured Interviewing,6,Yes,51,61,70
+LND-0280,NCS-0225,Supply Chain,Structured Interviewing,2,No,68,87,80
+LND-0281,NCS-0258,Human Resources,HR Compliance,8,No,62,80,64
+LND-0282,NCS-0139,Operations,HR Compliance,12,Yes,50,69,79
+LND-0283,NCS-0275,Technology,Structured Interviewing,4,No,59,83,89
+LND-0284,NCS-0095,Sales,KPI and Feedback,4,Yes,72,88,66
+LND-0285,NCS-0052,Supply Chain,Structured Interviewing,4,Yes,53,65,88
+LND-0286,NCS-0166,Operations,AI for HR,6,Yes,71,90,60
+LND-0287,NCS-0075,Supply Chain,AI for HR,2,Yes,58,69,87
+LND-0288,NCS-0057,Operations,Structured Interviewing,8,No,63,84,72
+LND-0289,NCS-0021,Customer Support,KPI and Feedback,12,Yes,65,81,72
+LND-0290,NCS-0093,Customer Support,Manager Essentials,4,Yes,71,94,67
+LND-0291,NCS-0191,Operations,AI for HR,12,Yes,69,93,88
+LND-0292,NCS-0037,Sales,Manager Essentials,2,Yes,64,76,74
+LND-0293,NCS-0028,Finance,Manager Essentials,2,No,71,85,71
+LND-0294,NCS-0136,Finance,KPI and Feedback,12,Yes,52,68,89
+LND-0295,NCS-0238,Technology,Structured Interviewing,6,Yes,46,70,58
+LND-0296,NCS-0162,Supply Chain,AI for HR,12,Yes,57,69,66
+LND-0297,NCS-0280,Customer Support,HR Compliance,8,No,67,79,74
+LND-0298,NCS-0263,Operations,Structured Interviewing,6,Yes,46,64,55
+LND-0299,NCS-0197,Supply Chain,AI for HR,8,No,65,84,58
+LND-0300,NCS-0015,Human Resources,Manager Essentials,4,Yes,48,65,81
+LND-0301,NCS-0012,Human Resources,Structured Interviewing,6,Yes,70,86,91
+LND-0302,NCS-0165,Human Resources,Structured Interviewing,4,Yes,60,68,78
+LND-0303,NCS-0043,Sales,KPI and Feedback,8,Yes,68,85,90
+LND-0304,NCS-0021,Technology,Manager Essentials,12,Yes,68,79,67
+LND-0305,NCS-0066,Technology,KPI and Feedback,8,Yes,67,83,85
+LND-0306,NCS-0062,Customer Support,Structured Interviewing,4,Yes,68,85,61
+LND-0307,NCS-0121,Human Resources,AI for HR,12,Yes,46,59,79
+LND-0308,NCS-0006,Human Resources,HR Compliance,2,Yes,53,68,85
+LND-0309,NCS-0228,Finance,Structured Interviewing,12,Yes,68,84,74
+LND-0310,NCS-0154,Technology,AI for HR,6,Yes,72,80,77
+LND-0311,NCS-0195,Supply Chain,KPI and Feedback,6,No,55,72,66
+LND-0312,NCS-0278,Supply Chain,Structured Interviewing,2,No,51,62,84
+LND-0313,NCS-0215,Operations,Structured Interviewing,2,Yes,57,81,80
+LND-0314,NCS-0083,Marketing,Structured Interviewing,12,Yes,57,79,86
+LND-0315,NCS-0037,Operations,Manager Essentials,8,Yes,57,72,76
+LND-0316,NCS-0038,Customer Support,HR Compliance,4,Yes,48,69,88
+LND-0317,NCS-0163,Operations,HR Compliance,8,Yes,51,66,88
+LND-0318,NCS-0152,Operations,HR Compliance,6,Yes,52,71,89
+LND-0319,NCS-0043,Sales,Manager Essentials,8,Yes,55,76,77
+LND-0320,NCS-0202,Sales,Structured Interviewing,4,Yes,61,73,72
+LND-0321,NCS-0213,Sales,HR Compliance,12,Yes,55,67,85
+LND-0322,NCS-0173,Supply Chain,HR Compliance,4,Yes,54,72,57
+LND-0323,NCS-0120,Sales,Manager Essentials,12,Yes,50,71,73
+LND-0324,NCS-0197,Sales,Manager Essentials,12,Yes,61,73,84
+LND-0325,NCS-0146,Finance,Manager Essentials,12,Yes,67,85,66
+LND-0326,NCS-0014,Operations,HR Compliance,8,Yes,47,67,61
+LND-0327,NCS-0249,Sales,Structured Interviewing,6,No,72,95,83
+LND-0328,NCS-0035,Sales,Manager Essentials,12,Yes,47,55,72
+LND-0329,NCS-0071,Operations,HR Compliance,2,No,54,64,60
+LND-0330,NCS-0023,Technology,Structured Interviewing,4,Yes,64,72,87
+LND-0331,NCS-0277,Marketing,HR Compliance,2,Yes,51,60,70
+LND-0332,NCS-0012,Customer Support,HR Compliance,6,No,70,88,87
+LND-0333,NCS-0049,Technology,KPI and Feedback,6,Yes,68,91,63
+LND-0334,NCS-0234,Human Resources,KPI and Feedback,12,Yes,63,79,55
+LND-0335,NCS-0015,Human Resources,Manager Essentials,8,Yes,55,65,58
+LND-0336,NCS-0103,Finance,Manager Essentials,12,Yes,66,76,62
+LND-0337,NCS-0162,Supply Chain,Manager Essentials,6,Yes,45,60,85
+LND-0338,NCS-0270,Operations,Structured Interviewing,4,Yes,63,87,61
+LND-0339,NCS-0174,Customer Support,Manager Essentials,8,Yes,67,90,73
+LND-0340,NCS-0067,Sales,Structured Interviewing,8,Yes,47,60,70
+LND-0341,NCS-0016,Technology,KPI and Feedback,12,Yes,62,73,68
+LND-0342,NCS-0106,Marketing,HR Compliance,4,Yes,63,73,67
+LND-0343,NCS-0237,Supply Chain,KPI and Feedback,2,Yes,64,80,63
+LND-0344,NCS-0134,Customer Support,Manager Essentials,4,Yes,47,64,65
+LND-0345,NCS-0184,Customer Support,KPI and Feedback,12,No,53,70,76
+LND-0346,NCS-0224,Customer Support,HR Compliance,6,Yes,59,67,70
+LND-0347,NCS-0068,Human Resources,Structured Interviewing,6,Yes,71,90,76
+LND-0348,NCS-0078,Operations,Structured Interviewing,12,Yes,59,81,70
+LND-0349,NCS-0199,Customer Support,Manager Essentials,6,Yes,67,83,88
+LND-0350,NCS-0153,Customer Support,KPI and Feedback,6,Yes,60,82,79
+LND-0351,NCS-0205,Human Resources,Manager Essentials,2,Yes,53,73,75
+LND-0352,NCS-0155,Human Resources,AI for HR,4,Yes,59,82,64
+LND-0353,NCS-0176,Sales,AI for HR,2,Yes,51,61,63
+LND-0354,NCS-0238,Marketing,Manager Essentials,4,Yes,51,73,73
+LND-0355,NCS-0046,Finance,Structured Interviewing,4,Yes,47,66,55
+LND-0356,NCS-0254,Technology,Structured Interviewing,4,Yes,61,79,89
+LND-0357,NCS-0086,Operations,Manager Essentials,6,Yes,51,62,80
+LND-0358,NCS-0162,Marketing,KPI and Feedback,8,Yes,48,61,77
+LND-0359,NCS-0164,Marketing,HR Compliance,2,Yes,49,61,86
+LND-0360,NCS-0068,Sales,HR Compliance,12,Yes,48,59,67
+LND-0361,NCS-0231,Sales,KPI and Feedback,4,Yes,62,70,76
+LND-0362,NCS-0143,Technology,Manager Essentials,12,Yes,70,80,91
+LND-0363,NCS-0177,Customer Support,KPI and Feedback,8,Yes,62,77,86
+LND-0364,NCS-0131,Operations,Structured Interviewing,8,Yes,60,71,61
+LND-0365,NCS-0221,Customer Support,Structured Interviewing,6,Yes,69,84,75
+LND-0366,NCS-0022,Finance,KPI and Feedback,2,Yes,57,69,77
+LND-0367,NCS-0200,Supply Chain,HR Compliance,12,Yes,74,83,77
+LND-0368,NCS-0009,Human Resources,AI for HR,6,Yes,68,76,64
+LND-0369,NCS-0131,Customer Support,Manager Essentials,2,Yes,75,91,90
+LND-0370,NCS-0057,Customer Support,HR Compliance,8,Yes,60,73,84
+LND-0371,NCS-0120,Marketing,HR Compliance,8,Yes,56,75,58
+LND-0372,NCS-0154,Finance,Structured Interviewing,8,Yes,59,68,74
+LND-0373,NCS-0188,Finance,KPI and Feedback,6,Yes,72,88,80
+LND-0374,NCS-0102,Sales,HR Compliance,8,Yes,72,92,70
+LND-0375,NCS-0032,Human Resources,KPI and Feedback,2,Yes,66,79,90
+LND-0376,NCS-0274,Sales,KPI and Feedback,4,Yes,57,70,64
+LND-0377,NCS-0015,Supply Chain,KPI and Feedback,4,Yes,52,64,92
+LND-0378,NCS-0035,Technology,AI for HR,2,Yes,66,90,61
+LND-0379,NCS-0218,Technology,HR Compliance,8,No,45,64,60
+LND-0380,NCS-0227,Finance,Manager Essentials,2,Yes,71,94,74
+LND-0381,NCS-0180,Marketing,KPI and Feedback,12,Yes,65,89,77
+LND-0382,NCS-0216,Sales,HR Compliance,12,Yes,59,81,86
+LND-0383,NCS-0065,Marketing,Structured Interviewing,8,Yes,65,73,61
+LND-0384,NCS-0184,Finance,KPI and Feedback,12,Yes,59,68,71
+LND-0385,NCS-0249,Finance,KPI and Feedback,4,No,73,89,73
+LND-0386,NCS-0181,Operations,AI for HR,4,Yes,68,85,82
+LND-0387,NCS-0098,Human Resources,Structured Interviewing,4,Yes,47,58,62
+LND-0388,NCS-0214,Finance,Structured Interviewing,8,Yes,60,69,68
+LND-0389,NCS-0279,Human Resources,KPI and Feedback,2,Yes,57,73,55
+LND-0390,NCS-0151,Customer Support,Manager Essentials,12,Yes,48,72,58
+LND-0391,NCS-0083,Operations,Structured Interviewing,6,Yes,65,78,79
+LND-0392,NCS-0247,Supply Chain,AI for HR,6,Yes,69,89,70
+LND-0393,NCS-0133,Human Resources,Manager Essentials,2,No,45,67,88
+LND-0394,NCS-0200,Finance,Manager Essentials,8,No,64,88,74
+LND-0395,NCS-0237,Sales,Manager Essentials,4,No,60,80,59
+LND-0396,NCS-0191,Human Resources,Manager Essentials,8,Yes,68,92,78
+LND-0397,NCS-0189,Marketing,HR Compliance,6,No,73,81,89
+LND-0398,NCS-0149,Marketing,HR Compliance,8,Yes,49,67,61
+LND-0399,NCS-0070,Marketing,Manager Essentials,8,Yes,62,76,78
+LND-0400,NCS-0180,Human Resources,KPI and Feedback,12,Yes,47,62,67
