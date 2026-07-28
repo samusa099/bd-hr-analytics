@@ -1,0 +1,63 @@
+name: Participant Submission Governance
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: participant-governance-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  participant-submission-target:
+    name: Participant submission target policy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Validate pull request destination
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          BASE_REF: ${{ github.base_ref }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          set -euo pipefail
+
+          mapfile -t changed_files < <(
+            gh api --paginate \
+              "repos/${REPOSITORY}/pulls/${PR_NUMBER}/files?per_page=100" \
+              --jq '.[].filename'
+          )
+
+          participant_solution_change=false
+          for file in "${changed_files[@]}"; do
+            if [[ "${file}" == participant-submissions/solutions/*/*/* ]]; then
+              participant_solution_change=true
+              break
+            fi
+          done
+
+          submission_branch=false
+          if [[ "${HEAD_REF}" == submission/* ]]; then
+            submission_branch=true
+          fi
+
+          if [[ "${participant_solution_change}" == "true" || "${submission_branch}" == "true" ]]; then
+            if [[ "${BASE_REF}" == "main" ]]; then
+              echo "::error::Participant submissions must not target main. Use participant-review."
+              exit 1
+            fi
+
+            if [[ "${BASE_REF}" != "participant-review" ]]; then
+              echo "::error::Participant submissions must target participant-review."
+              exit 1
+            fi
+          fi
+
+          echo "Participant submission target policy passed."

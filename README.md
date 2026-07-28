@@ -2,100 +2,154 @@
   <img src="assets/cover/bd_hr_analytics_cover.svg" width="78%" alt="BD HR Analytics portfolio cover highlighting Musa and the synthetic HR strategy transformation project" />
 </p>
 
-# 🚀 BD HR Analytics
+# BD HR Analytics — KAS Ltd. Transformation Case
 
 <p align="center">
-  <strong>Bangladesh SME HR Strategy Transformation — a complete synthetic people-analytics portfolio.</strong>
+  <strong>A fully synthetic Bangladesh export-manufacturing HRBP, people-analytics and operating-transformation portfolio.</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Author-Musa-2563EB?style=for-the-badge" alt="Author Musa" />
-  <img src="https://img.shields.io/badge/Data-100%25%20Synthetic-F97316?style=for-the-badge" alt="100 percent synthetic data" />
-  <img src="https://img.shields.io/badge/Excel-Dashboard-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel dashboard" />
-  <img src="https://img.shields.io/badge/Power%20BI-Build%20Assets-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000" alt="Power BI build assets" />
+  <img src="https://img.shields.io/badge/Data-100%25%20Synthetic-F97316?style=for-the-badge" alt="Synthetic data" />
+  <img src="https://img.shields.io/badge/Case-KAS%20Ltd.-0F766E?style=for-the-badge" alt="KAS Ltd case" />
+  <img src="https://img.shields.io/badge/Role-HRBP%20%26%20People%20Analytics-7C3AED?style=for-the-badge" alt="HRBP and people analytics" />
+  <img src="https://img.shields.io/badge/Power%20BI-Decision%20Model-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000" alt="Power BI" />
   <img src="https://img.shields.io/badge/SQLite-DBeaver-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite and DBeaver" />
-  <img src="https://img.shields.io/badge/Portfolio-Ready-14B8A6?style=for-the-badge" alt="Portfolio ready" />
 </p>
 
 ---
 
-## 📌 Executive Overview
+## Executive Overview
 
-**Nabodoy Commerce & Services Ltd.** is a fictional Bangladesh-based startup growing into an SME. Rapid headcount growth created connected people challenges: turnover, early attrition, absence, overtime, recruitment delays, manager capability gaps, inconsistent performance practices and weak compliance visibility.
+**KAS Ltd.** is a fictional export-oriented manufacturer operating inside the fictional **XYZ Export Processing Zone, Bangladesh**. It produces niche intimate-apparel products such as underwear, shapewear, technical base layers and private-label essentials for a synthetic portfolio of overseas buyers.
 
-This portfolio shows how **Musa**, positioned as an HR Executive, can diagnose those problems, design coordinated HR interventions and communicate the results through Excel, Power BI, SQL, SQLite, Python and Looker Studio.
+Commercial growth has outpaced the maturity of the company’s people and operating systems. Overtime dependence, specialist-skill shortages, machine downtime, inconsistent supervisor capability, buyer changes, data-quality weaknesses and cross-functional accountability gaps now affect delivery reliability, quality, cost, employee trust and reputation.
 
-> **Important:** The company, employees, results and story are completely synthetic. Nothing in this repository represents a real employer or real employee.
+The case follows **Musa**, an HR professional with five years of experience, as he progresses from:
 
-## 🎯 Portfolio Achievement
+```text
+Senior Executive — HR & People Analytics
+        ↓
+Acting HRBP Portfolio
+        ↓
+Assistant Manager — HR Business Partnering & People Analytics
+        ↓
+Long-term CHRO Capability Pathway
+```
 
-The project demonstrates readiness to move from operational HR reporting toward strategic HR work by showing:
+> **Synthetic-case notice:** KAS Ltd., XYZ Export Processing Zone, all employees, buyers, incidents, awards and performance outcomes in this repository are fictional. The project must not be represented as a real employer case or verified business impact.
+
+---
+
+## Strategic Case Structure
+
+| Quarter | Management Context | HRBP Requirement |
+|---|---|---|
+| Q1 | Strategic reset after buyer escalation, overtime pressure and inconsistent delivery | Establish a controlled workforce and operating baseline |
+| Q2 | Growth improves, but culture and management practices institutionalise unevenly | Align workforce planning, manager accountability and cross-functional decisions |
+| Q3 | External recognition is followed by a coupled machine, planning, skill and workload failure | Reconstruct the incident without individual blame or unsupported causality |
+| Q4 | The Board requests AI, automation and automatic dashboard refresh | Build data governance, role-based reporting and mandatory human review |
+
+Read the full professional case: [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md)
+
+---
+
+## Portfolio Achievement
+
+The project demonstrates readiness for early mid-level HRBP and people-analytics work through:
 
 - business and workforce diagnosis;
-- structured talent, learning and performance interventions;
-- dashboard storytelling and KPI governance;
-- SQL data cleaning and BI-ready modelling;
-- responsible people analytics with human review;
-- executive communication and portfolio presentation.
+- influence across Production, Quality, Engineering, IE, Merchandising, Finance and Compliance;
+- structured data assurance and SQL cleaning;
+- Excel operational control;
+- Power BI decision modelling;
+- Looker Studio leadership reporting;
+- incident reconstruction and corrective-action governance;
+- responsible AI and automation design;
+- executive communication and career progression toward CHRO capability.
 
-## 📊 Project Snapshot
+---
 
-| Area | Portfolio output |
-|---|---|
-| Business problem | Startup-to-SME people-system maturity gap |
-| Data | Synthetic workforce, recruitment, learning and KPI CSV files |
-| Excel | Executive dashboard and scorecards |
-| Power BI | Six-page design system, DAX, theme and model guidance |
-| SQL | DBeaver/SQLite schema, cleaning pipeline, views and analysis queries |
-| Python | Diagnostic and intervention-impact notebooks |
-| Governance | Ethics, limitations, provenance and rules-alignment documentation |
-| Distribution | One unified GitHub/Kaggle project archive |
+## Integrated Challenge
 
-## 📈 Simulated Transformation Outcomes
+The professional challenge requires approximately **10–16 focused hours** and combines:
 
-| KPI | Baseline | Simulated result |
-|---|---:|---:|
-| Annualised turnover | 28.6% | 17.8% |
-| 90-day early attrition | 24.1% | 12.1% |
-| Absenteeism | 12.7% | 7.6% |
-| Time-to-fill | 53 days | 32 days |
-| Overtime cost ratio | 18.4% | 10.9% |
-| Engagement score | 56/100 | 74/100 |
-| Manager effectiveness | 58/100 | 77/100 |
-| Compliance documentation | 61% | 95% |
+1. data assurance;
+2. SQLite and DBeaver modelling;
+3. Excel operational review;
+4. Power BI decision pages;
+5. Looker Studio management reporting;
+6. future-data refresh governance;
+7. an HRBP decision memo.
 
-These values support portfolio storytelling only. They are descriptive simulated outcomes and do not prove causality.
+[Open the integrated challenge brief](docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md)
 
-## 🧰 Tools and Platforms
+### Power BI Decision Pages
+
+1. Executive Performance and Risk  
+2. Workforce Stability  
+3. Production People Risk  
+4. Talent and Specialist Skill Pipeline  
+5. Manager Capability and Culture  
+6. Q3 Incident Reconstruction  
+7. Q4 Automation and Governance Readiness  
+
+---
+
+## Data and Evidence Boundary
+
+The current repository contains a synthetic analytical baseline for workforce, recruitment, learning and HR KPI practice. The professional KAS Ltd. case also proposes additional manufacturing-oriented datasets such as machine downtime, quality incidents, production-line KPIs and buyer-order changes.
+
+Those proposed datasets are challenge extensions and should not be treated as already published evidence unless the corresponding files exist in the repository.
+
+All analysis must:
+
+- preserve canonical raw data;
+- document transformations;
+- distinguish supported findings from provisional interpretations;
+- avoid presenting before-and-after movement as causal proof;
+- retain accountable human judgement for employment decisions.
+
+---
+
+## Analytics Workflow
+
+```mermaid
+flowchart LR
+    SOURCE[Department source files] --> VALIDATE[Schema and period validation]
+    VALIDATE -->|Valid| RAW[Immutable SQLite raw layer]
+    VALIDATE -->|Invalid| QUARANTINE[Quarantine and issue log]
+    RAW --> CLEAN[Documented SQL clean layer]
+    CLEAN --> BI[BI-ready views]
+    BI --> EXCEL[Excel operational control]
+    BI --> PBI[Power BI decision model]
+    BI --> LOOKER[Looker Studio leadership view]
+    EXCEL --> REVIEW[Management review]
+    PBI --> REVIEW
+    LOOKER --> REVIEW
+    REVIEW --> HUMAN[Role-based access and human approval]
+```
+
+---
+
+## Tools and Platforms
 
 ```text
 Excel • Power BI • Looker Studio • Python • SQL • SQLite • DBeaver • GitHub • Kaggle
 ```
 
-## 🧭 Analytics Workflow
+---
 
-```mermaid
-flowchart LR
-    RAW[Raw synthetic CSV data] --> CLEAN[Validated clean layer]
-    CLEAN --> ANALYSIS[Analysis-ready tables]
-    ANALYSIS --> BI[BI-ready views and models]
-    BI --> EXCEL[Excel dashboard]
-    BI --> PBI[Power BI report]
-    BI --> SQL[SQLite / DBeaver]
-    ANALYSIS --> PY[Python notebooks]
-    EXCEL --> STORY[Executive HR story]
-    PBI --> STORY
-    SQL --> STORY
-    PY --> STORY
-```
-
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```text
 bd-hr-analytics/
+├── .github/
+│   ├── workflows/
+│   ├── ISSUE_TEMPLATE/
+│   ├── CODEOWNERS
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── assets/
-│   ├── cover/
-│   └── dashboard previews
 ├── data/
 │   ├── raw/
 │   ├── processed/
@@ -105,14 +159,17 @@ bd-hr-analytics/
 │   ├── excel/
 │   ├── power-bi/
 │   └── looker-studio/
-├── analysis/
-│   └── notebooks/
-├── sql/
-│   └── sqlite/
+├── analysis/notebooks/
+├── sql/sqlite/
 ├── scripts/
 ├── database/
 ├── metadata/
 ├── docs/
+│   └── governance/
+├── governance/rulesets/
+├── participant-submissions/
+│   ├── templates/
+│   └── solutions/
 ├── README.md
 ├── DATA_PROVENANCE.md
 ├── CITATION.cff
@@ -121,18 +178,19 @@ bd-hr-analytics/
 └── bd-hr-analytics-unified-project.zip
 ```
 
-The final unified ZIP is intentionally retained as the single distribution asset. Historical duplicate archives are not stored.
+---
 
-## ⚡ Quick Start
+## Quick Start
 
-### Review the project
+### Review the Case
 
 1. Read [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md).
-2. Open the Excel dashboard in [`dashboards/excel/`](dashboards/excel/).
-3. Review the six Power BI concepts in [`dashboards/power-bi/dashboard-images/`](dashboards/power-bi/dashboard-images/).
-4. Inspect the central CSV files in [`data/csv/`](data/csv/).
+2. Select a workstream from [`docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md`](docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md).
+3. Review the central CSV files in [`data/csv/`](data/csv/).
+4. Open the Excel dashboard in [`dashboards/excel/`](dashboards/excel/).
+5. Review Power BI guidance in [`dashboards/power-bi/README.md`](dashboards/power-bi/README.md).
 
-### Build the SQLite database
+### Build the SQLite Database
 
 ```bash
 python scripts/build_sqlite_database.py
@@ -146,60 +204,103 @@ database/bd_hr_analytics.sqlite
 
 in DBeaver or another SQLite client. Full instructions are in [`sql/README.md`](sql/README.md).
 
-### Build the Power BI report
+---
 
-Follow [`dashboards/power-bi/README.md`](dashboards/power-bi/README.md) to import CSVs, create the model, add DAX measures and rebuild the six report pages.
+## Participant Submissions
 
-## 📚 Documentation
+Participants may contribute original solutions through the controlled workspace:
+
+[`participant-submissions/`](participant-submissions/)
+
+Required contribution path:
+
+```text
+participant-submissions/solutions/<github-username>/<challenge-id>/
+```
+
+Required pull-request target:
+
+```text
+participant-review
+```
+
+Participant submissions must **not** target or merge directly into `main`. Promotion to `main` requires a separate maintainer-controlled pull request after validation.
+
+- [Participant workspace](participant-submissions/README.md)
+- [Submission governance](docs/PARTICIPANT_SUBMISSION_GOVERNANCE.md)
+- [Review rubric](participant-submissions/REVIEW_RUBRIC.md)
+- [Solution template](participant-submissions/templates/SOLUTION_README_TEMPLATE.md)
+
+---
+
+## Repository Governance
+
+The protected `main` branch rejects direct updates and requires pull requests with status checks. Additional governance templates are stored in [`governance/rulesets/`](governance/rulesets/).
+
+| Governance Resource | Purpose |
+|---|---|
+| [`governance/rulesets/default_branch_pull_request_governance.json`](governance/rulesets/default_branch_pull_request_governance.json) | Default branch pull-request protection template |
+| [`governance/rulesets/participant_review_branch_governance.json`](governance/rulesets/participant_review_branch_governance.json) | Participant review branch protection template |
+| [`governance/rulesets/semantic_version_tag_protection.json`](governance/rulesets/semantic_version_tag_protection.json) | Immutable semantic-version tags |
+| [`docs/governance/GITHUB_PROTECTION_IMPLEMENTATION_GUIDE_BN.md`](docs/governance/GITHUB_PROTECTION_IMPLEMENTATION_GUIDE_BN.md) | Bangla implementation guide |
+| [`.github/workflows/participant-submission-governance.yml`](.github/workflows/participant-submission-governance.yml) | Rejects participant submissions targeting the wrong branch |
+
+Storing a ruleset JSON does not activate it automatically; repository administrators must import or recreate it through GitHub repository settings.
+
+---
+
+## Documentation
 
 | Guide | Purpose |
 |---|---|
+| [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md) | Professional Q1–Q4 KAS Ltd. case narrative |
+| [`docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md`](docs/KAS_LTD_INTEGRATED_CHALLENGE_BRIEF.md) | Tool-integrated participant assignment |
+| [`docs/PARTICIPANT_SUBMISSION_GOVERNANCE.md`](docs/PARTICIPANT_SUBMISSION_GOVERNANCE.md) | Contribution and review rules |
 | [`docs/PROJECT_USAGE_GUIDE.md`](docs/PROJECT_USAGE_GUIDE.md) | Complete project workflow |
 | [`docs/PROMOTION_PORTFOLIO.md`](docs/PROMOTION_PORTFOLIO.md) | Career and interview positioning |
 | [`docs/ETHICS_AND_LIMITATIONS.md`](docs/ETHICS_AND_LIMITATIONS.md) | Responsible people-analytics safeguards |
 | [`docs/PROJECT_RULES_ALIGNMENT.md`](docs/PROJECT_RULES_ALIGNMENT.md) | Applied and excluded unified project rules |
 | [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) | Synthetic source, generation and limitations |
 | [`sql/README.md`](sql/README.md) | DBeaver, SQLite and data-cleaning workflow |
-| [`dashboards/power-bi/README.md`](dashboards/power-bi/README.md) | Native Power BI build guide |
 | [`RELEASE_NOTES.md`](RELEASE_NOTES.md) | Current release summary |
 
-## 🧪 Practice Levels
+---
 
-**Beginner:** filtering, pivot tables, basic charts and descriptive KPI review.
-
-**Intermediate:** SQL cleaning, joins, Power Query, KPI modelling and dashboard development.
-
-**Advanced:** reproducible SQLite pipelines, BI-ready views, DAX, validation and ethical model review.
-
-## ⚖️ Ethics and Responsible Use
+## Ethics and Responsible Use
 
 - No real personal or confidential employee data is included.
 - Synthetic status must remain visible in every public output.
 - Employee-risk scores are discussion prompts, not decisions.
-- Do not use the project for hiring, termination, promotion, discipline or medical decisions.
+- Do not use the project to automate hiring, termination, promotion, discipline or medical decisions.
 - Before-and-after movement is descriptive and does not establish causality.
-- Any production adaptation requires lawful data collection, privacy controls, validation and human oversight.
+- Any production adaptation requires lawful collection, privacy controls, bias testing, validation and accountable human oversight.
 
-## 📦 Download
+---
+
+## Download
 
 [Download the unified project ZIP](bd-hr-analytics-unified-project.zip)
 
-The same clean archive can be used for GitHub portfolio distribution and Kaggle publication.
+The same clean archive is intended for GitHub portfolio distribution and Kaggle publication.
 
-## 📖 Citation
+---
+
+## Citation
 
 ```text
-Musa. (2026). BD HR Analytics: Bangladesh SME HR Strategy Transformation (Version 0.3.0) [Synthetic data and analytics portfolio].
+Musa. (2026). BD HR Analytics: KAS Ltd. HR Business Partnership and Operating Transformation Case (Version 0.3.0) [Synthetic data and analytics portfolio].
 ```
 
 Machine-readable citation metadata: [`CITATION.cff`](CITATION.cff)
 
-## 👤 Author
+---
+
+## Author
 
 **Musa**  
-HR Executive • People Analytics • Strategic HR Transformation
+HR Business Partnering • People Analytics • Strategic HR Transformation
 
-## 📄 Licence
+## Licence
 
 - Code and scripts: MIT
 - Synthetic dataset and documentation: CC BY 4.0

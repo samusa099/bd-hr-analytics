@@ -8,6 +8,14 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 
 ### Added
 
+- professional Q1–Q4 KAS Ltd. HR Business Partnership and operating-transformation case;
+- integrated 10–16 hour analytics challenge covering data assurance, SQLite, DBeaver, Excel, Power BI, Looker Studio, refresh governance and an HRBP decision memo;
+- controlled `participant-submissions/` workspace, templates and review rubric;
+- participant contribution governance requiring submissions to target `participant-review` rather than `main`;
+- automated participant pull-request target validation;
+- `CODEOWNERS`, pull-request template and participant solution issue template;
+- default-branch, participant-review and semantic-version tag ruleset templates;
+- Bangla GitHub protection implementation guide;
 - scalable SVG project cover highlighting Musa's strategic HR analytics portfolio achievement;
 - DBeaver and SQLite setup guide;
 - raw-table schema, SQL data-cleaning pipeline, BI-ready views and reusable portfolio queries;
@@ -17,8 +25,11 @@ The format follows the principles of [Keep a Changelog](https://keepachangelog.c
 
 ### Changed
 
+- replaced the one-paragraph case summary with a professional export-manufacturing HRBP case involving contradictory evidence, cross-functional dependency, incident reconstruction and responsible AI governance;
+- repositioned Musa from Senior Executive through an acting HRBP assignment to Assistant Manager — HR Business Partnering & People Analytics, with a long-term CHRO capability pathway;
+- redesigned the root README around the KAS Ltd. case, integrated challenge, participant workflow and repository governance;
+- prohibited participant solutions from targeting or merging directly into `main`;
 - removed the `Assigned to` column from the Power BI build-plan table;
-- upgraded the root README to follow the portfolio landing-page order;
 - expanded project usability guidance for SQL, SQLite, DBeaver and Power BI;
 - clarified that simulated outcomes are descriptive and do not prove causality.
 

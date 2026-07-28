@@ -1,0 +1,52 @@
+name: Participant Solution Proposal
+description: Propose a synthetic-data solution before opening a pull request
+title: "[Participant Solution] "
+labels: ["participant-solution", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use only synthetic project data. Do not include personal data, credentials, private URLs or confidential company information.
+  - type: input
+    id: challenge
+    attributes:
+      label: Challenge ID
+      placeholder: "Example: KAS-04"
+    validations:
+      required: true
+  - type: input
+    id: tools
+    attributes:
+      label: Tools
+      placeholder: "Excel, Power BI, SQLite, DBeaver, Python, SQL"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed Scope
+      description: Summarise the problem, planned outputs and selected submission level.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Proposed Method
+      description: Explain the expected data, modelling, analysis and validation approach.
+    validations:
+      required: true
+  - type: checkboxes
+    id: governance
+    attributes:
+      label: Governance Confirmation
+      options:
+        - label: I will use only synthetic project data.
+          required: true
+        - label: I will not modify canonical raw data.
+          required: true
+        - label: I will submit only inside my participant solution folder.
+          required: true
+        - label: My pull request will target `participant-review`, not `main`.
+          required: true
+        - label: I will not automate hiring, termination, promotion or disciplinary decisions.
+          required: true

@@ -1,0 +1,29 @@
+# Repository-wide ownership
+* @samusa099
+
+# Governance and security
+/.github/ @samusa099
+/governance/ @samusa099
+/SECURITY.md @samusa099
+
+# Authoritative data and metadata
+/data/raw/ @samusa099
+/data/dictionary/ @samusa099
+/metadata/ @samusa099
+/DATA_PROVENANCE.md @samusa099
+/CITATION.cff @samusa099
+
+# Analytical controls
+/sql/ @samusa099
+/scripts/ @samusa099
+/dashboards/ @samusa099
+
+# Case, ethics and participant governance
+/docs/ @samusa099
+/participant-submissions/ @samusa099
+
+# Release governance
+/VERSION @samusa099
+/CHANGELOG.md @samusa099
+/RELEASE_NOTES.md @samusa099
+/LICENSE @samusa099

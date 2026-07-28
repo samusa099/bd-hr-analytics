@@ -1,18 +1,23 @@
 {
-  "title": "Bangladesh SME HR Strategy Transformation",
+  "title": "BD HR Analytics: KAS Ltd. HR Business Partnership and Operating Transformation Case",
   "id": "samusa099/bd-hr-analytics",
   "licenses": [
     {
       "name": "CC-BY-4.0"
     }
   ],
-  "subtitle": "Synthetic startup-to-SME people analytics portfolio",
-  "description": "Synthetic Bangladesh HR analytics portfolio dataset.",
+  "subtitle": "Synthetic Bangladesh export-manufacturing HRBP and people-analytics portfolio",
+  "description": "A completely synthetic KAS Ltd. case combining workforce analytics, HR business partnering, operational risk, SQL and SQLite data assurance, Excel controls, Power BI, Looker Studio and responsible AI governance.",
   "keywords": [
     "human resources",
+    "HR business partnering",
     "people analytics",
+    "synthetic data",
     "Bangladesh",
+    "export manufacturing",
     "Power BI",
-    "Excel"
+    "Excel",
+    "SQLite",
+    "DBeaver"
   ]
 }
