@@ -1,0 +1,14 @@
+name: Issue First Automation
+on:
+  workflow_run:
+    types: [completed]
+  pull_request_target:
+    types: [opened, reopened, ready_for_review]
+permissions:
+  actions: read
+  contents: read
+  issues: write
+  pull-requests: write
+jobs:
+  policy:
+    uses: samusa099/Agency-Statup/.github/workflows/reusable-issue-first.yml@83b676ff18b2afd2a5c5aca48039e3c3a44db7c1
