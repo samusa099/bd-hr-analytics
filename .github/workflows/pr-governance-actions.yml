@@ -1,39 +1,168 @@
 name: PR Governance Actions
-on: [pull_request, pull_request_review]
-permissions: {contents: read, pull-requests: write, issues: write}
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  pull_request_review:
+    types: [submitted, dismissed]
+
+concurrency:
+  group: pr-governance-${{ github.repository }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
 jobs:
-  checks:
+  orchestrator:
+    name: Python Governance Orchestrator
+    if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions: {contents: read}
+    outputs:
+      reviewers: ${{ steps.plan.outputs.reviewers }}
+      labels: ${{ steps.plan.outputs.labels }}
+      skill_eval: ${{ steps.plan.outputs.skill_eval }}
+      montara: ${{ steps.plan.outputs.montara }}
     steps:
-      - uses: actions/checkout@v4
-        with: {fetch-depth: 0}
-      - name: Diff Calculator Action
-        uses: themoin/diff-calculator@v0.2.3
-        with: {source: "${{ github.event.pull_request.head.sha }}", target: "${{ github.event.pull_request.base.sha }}"}
-      - name: limit-size
-        uses: 7PH/limit-size@v1.0.0
-        with: {github_token: "${{ secrets.GITHUB_TOKEN }}", files: "**/*: 25mb"}
-      - id: cfg
+      - id: plan
+        name: Build governance execution plan
         shell: bash
-        env: {A: "${{ secrets.ANTHROPIC_API_KEY }}", M: "${{ secrets.MONTARA_WEBHOOK_URL }}", SN: "${{ vars.SKILL_NAME }}", SP: "${{ vars.SKILL_PATH }}"}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MONTARA_WEBHOOK_URL: ${{ secrets.MONTARA_WEBHOOK_URL }}
+          SKILL_NAME: ${{ vars.SKILL_NAME }}
+          SKILL_PATH: ${{ vars.SKILL_PATH }}
         run: |
-          [[ -f .reviewers.yaml ]] && echo r=1 >>$GITHUB_OUTPUT || true
-          [[ -f .github/auto-label.json ]] && echo l=1 >>$GITHUB_OUTPUT || true
-          [[ -n "$A" && -n "$SN" && -n "$SP" && -d "$SP" ]] && echo s=1 >>$GITHUB_OUTPUT || true
-          [[ -n "$M" ]] && echo m=1 >>$GITHUB_OUTPUT || true
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, urllib.error, urllib.parse, urllib.request
+          repo=os.environ["GITHUB_REPOSITORY"]; ref=os.environ["HEAD_SHA"]; token=os.environ["GH_TOKEN"]; event=os.environ["GITHUB_EVENT_NAME"]
+          def exists(path):
+              path=(path or "").strip().replace("\\","/")
+              while path.startswith("./"): path=path[2:]
+              if not path or path.startswith("/") or ".." in path.split("/"): return False
+              url=f"https://api.github.com/repos/{repo}/contents/{urllib.parse.quote(path,safe='/')}?ref={urllib.parse.quote(ref)}"
+              req=urllib.request.Request(url,headers={"Authorization":f"Bearer {token}","Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"})
+              try:
+                  with urllib.request.urlopen(req,timeout=20): return True
+              except urllib.error.HTTPError as exc:
+                  if exc.code==404: return False
+                  raise
+          values={"reviewers":exists(".reviewers.yaml"),"labels":event=="pull_request" and exists(".github/auto-label.json"),"skill_eval":event=="pull_request" and bool(os.environ.get("ANTHROPIC_API_KEY")) and bool(os.environ.get("SKILL_NAME")) and exists(os.environ.get("SKILL_PATH","")),"montara":event=="pull_request" and bool(os.environ.get("MONTARA_WEBHOOK_URL"))}
+          with open(os.environ["GITHUB_OUTPUT"],"a",encoding="utf-8") as fh:
+              for k,v in values.items(): fh.write(f"{k}={'true' if v else 'false'}\n")
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as fh:
+              fh.write("## Python governance plan\n\n")
+              for k,v in values.items(): fh.write(f"- **{k}**: {'run' if v else 'skip'}\n")
+          PY
+
+  diff-calculator:
+    name: Employee - Diff Calculator
+    needs: orchestrator
+    if: needs.orchestrator.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {contents: read}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with: {fetch-depth: 0, persist-credentials: false}
+      - name: Diff Calculator Action
+        uses: themoin/diff-calculator@c8659ef8d22c547fc3b16984a8a39fba63657088 # v0.2.3
+        with: {source: "${{ github.event.pull_request.head.sha }}", target: "${{ github.event.pull_request.base.sha }}", ignore-deletion: "false", ignore-whitespace: "false", verbose: "true"}
+
+  limit-size:
+    name: Employee - Limit Size
+    needs: orchestrator
+    if: needs.orchestrator.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {contents: read, pull-requests: read}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with: {fetch-depth: 0, persist-credentials: false}
+      - name: Limit Size Action
+        uses: 7PH/limit-size@301725782a5b1883b2a277e3b446e58dd3fcf84c # v1.0.0
+        with: {github_token: "${{ secrets.GITHUB_TOKEN }}", files: "**/*: 25mb", fail_on_exceeded: "true"}
+
+  reviewers:
+    name: Employee - PR Reviewers
+    needs: orchestrator
+    if: needs.orchestrator.outputs.reviewers == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {contents: read, pull-requests: write}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with: {persist-credentials: false}
       - name: PR Reviewers Action
-        if: steps.cfg.outputs.r == '1'
-        uses: patricklubach/reviewer-action@v1.0.0
-        with: {token: "${{ secrets.GITHUB_TOKEN }}", pr_number: "${{ github.event.pull_request.number }}"}
+        uses: patricklubach/reviewer-action@08ac0b7c9afeb55739d2a8c6c8180bebf7874cde # v1.0.0
+        with: {reviewers_file: .reviewers.yaml, token: "${{ secrets.GITHUB_TOKEN }}", pr_number: "${{ github.event.pull_request.number }}"}
+
+  auto-label:
+    name: Employee - Auto Label
+    needs: orchestrator
+    if: needs.orchestrator.outputs.labels == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {contents: read, pull-requests: write, issues: write}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with: {persist-credentials: false}
       - name: Auto Label Action
-        if: steps.cfg.outputs.l == '1' && github.event_name == 'pull_request'
-        uses: banyan/auto-label@1.2
+        uses: banyan/auto-label@45a96386f4cac601434ed0f34db11c8df2fcac86 # 1.2
         env: {GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+        with: {configPath: .github/auto-label.json}
+
+  skill-eval:
+    name: Employee - Skill Eval
+    needs: orchestrator
+    if: needs.orchestrator.outputs.skill_eval == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions: {contents: read, pull-requests: write, issues: write}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with: {persist-credentials: false}
       - name: Skill Eval
-        if: steps.cfg.outputs.s == '1' && github.event_name == 'pull_request'
-        uses: skill-bench/skill-eval-action@v1.3.0
-        with: {skill-name: "${{ vars.SKILL_NAME }}", skill-path: "${{ vars.SKILL_PATH }}", anthropic-api-key: "${{ secrets.ANTHROPIC_API_KEY }}"}
+        uses: skill-bench/skill-eval-action@32cb44e77cf3147ebbe140a953065e0ac89eddb6 # v1.3.0
+        with: {skill-name: "${{ vars.SKILL_NAME }}", skill-path: "${{ vars.SKILL_PATH }}", anthropic-api-key: "${{ secrets.ANTHROPIC_API_KEY }}", github-token: "${{ secrets.GITHUB_TOKEN }}"}
+
+  montara:
+    name: Employee - Montara CI
+    needs: orchestrator
+    if: needs.orchestrator.outputs.montara == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {contents: read}
+    steps:
       - name: Montara CI
-        if: steps.cfg.outputs.m == '1' && github.event_name == 'pull_request'
-        uses: montara-io/montara-ci@v1.0.20
+        uses: montara-io/montara-ci@eca5afc53f2e39c847d187e4bf43b1bef9e1056e # v1.0.20
         with: {webhookUrl: "${{ secrets.MONTARA_WEBHOOK_URL }}"}
+
+  governance-result:
+    name: Governance Result
+    if: always()
+    needs: [orchestrator, diff-calculator, limit-size, reviewers, auto-label, skill-eval, montara]
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions: {contents: read}
+    steps:
+      - name: Aggregate employee results
+        shell: bash
+        env: {ORCHESTRATOR: "${{ needs.orchestrator.result }}", DIFF: "${{ needs.diff-calculator.result }}", LIMIT: "${{ needs.limit-size.result }}", REVIEWERS: "${{ needs.reviewers.result }}", LABELS: "${{ needs.auto-label.result }}", SKILL: "${{ needs.skill-eval.result }}", MONTARA: "${{ needs.montara.result }}"}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os,sys
+          r={"orchestrator":os.environ["ORCHESTRATOR"],"diff-calculator":os.environ["DIFF"],"limit-size":os.environ["LIMIT"],"reviewers":os.environ["REVIEWERS"],"auto-label":os.environ["LABELS"],"skill-eval":os.environ["SKILL"],"montara":os.environ["MONTARA"]}
+          if r["orchestrator"]=="skipped": raise SystemExit(0)
+          bad={k:v for k,v in r.items() if v not in {"success","skipped"}}
+          for k,v in r.items(): print(f"{k}: {v}")
+          if bad:
+              print(f"Governance employee failure(s): {bad}",file=sys.stderr)
+              raise SystemExit(1)
+          PY
